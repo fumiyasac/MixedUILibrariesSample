@@ -1,0 +1,15 @@
+PODS:
+  - FlexibleSteppedProgressBar (0.5.0)
+  - ScalingCarousel (2.0)
+
+DEPENDENCIES:
+  - FlexibleSteppedProgressBar
+  - ScalingCarousel
+
+SPEC CHECKSUMS:
+  FlexibleSteppedProgressBar: a8894ca4913e34ea2c694be09a7d4d6b1f1bdc74
+  ScalingCarousel: 5c9b481796fcb350da0ed8f65840b470d21210f2
+
+PODFILE CHECKSUM: 76b0f8b1016ff33133cd83b39035d83559d00b6e
+
+COCOAPODS: 1.3.1
