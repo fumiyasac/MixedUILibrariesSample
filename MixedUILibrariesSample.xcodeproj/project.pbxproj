@@ -22,6 +22,12 @@
 		DE9217EE1FD43057008261DA /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9217E81FD43057008261DA /* UIImageExtension.swift */; };
 		DE9217EF1FD43057008261DA /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9217E91FD43057008261DA /* UIViewControllerExtension.swift */; };
 		DE9217F01FD43057008261DA /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9217EA1FD43057008261DA /* UITableViewExtension.swift */; };
+		DE9217F31FD4352D008261DA /* Contents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9217F11FD4352D008261DA /* Contents.storyboard */; };
+		DE9217F51FD43549008261DA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9217F41FD43549008261DA /* ListViewController.swift */; };
+		DE92180B1FD49B55008261DA /* TutorialBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92180A1FD49B55008261DA /* TutorialBaseViewController.swift */; };
+		DEE737721FD51ECE00F570D2 /* CoverFlowSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE737711FD51ECE00F570D2 /* CoverFlowSliderViewController.swift */; };
+		DEE737781FD54E5F00F570D2 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE737761FD54E5F00F570D2 /* ListCollectionViewCell.swift */; };
+		DEE737791FD54E5F00F570D2 /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE737771FD54E5F00F570D2 /* ListCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,12 @@
 		DE9217E81FD43057008261DA /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		DE9217E91FD43057008261DA /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		DE9217EA1FD43057008261DA /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		DE9217F21FD4352D008261DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contents.storyboard; sourceTree = "<group>"; };
+		DE9217F41FD43549008261DA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DE92180A1FD49B55008261DA /* TutorialBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialBaseViewController.swift; sourceTree = "<group>"; };
+		DEE737711FD51ECE00F570D2 /* CoverFlowSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowSliderViewController.swift; sourceTree = "<group>"; };
+		DEE737761FD54E5F00F570D2 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE737771FD54E5F00F570D2 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
 		E59AE6BCC04FDD9A19B4522F /* Pods-MixedUILibrariesSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixedUILibrariesSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixedUILibrariesSample/Pods-MixedUILibrariesSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				DE9217B01FD0719D008261DA /* MainViewController.swift */,
+				DE9217F41FD43549008261DA /* ListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -171,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				DE9217B21FD0719D008261DA /* Main.storyboard */,
+				DE9217F11FD4352D008261DA /* Contents.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -186,6 +200,9 @@
 		DE9217DF1FD420DE008261DA /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DEE737731FD54E1700F570D2 /* ListCollectionViewCell */,
+				DEE737701FD51EB300F570D2 /* CoverFlowSlider */,
+				DE9218091FD49B33008261DA /* TutorialBase */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -215,6 +232,31 @@
 			children = (
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		DE9218091FD49B33008261DA /* TutorialBase */ = {
+			isa = PBXGroup;
+			children = (
+				DE92180A1FD49B55008261DA /* TutorialBaseViewController.swift */,
+			);
+			path = TutorialBase;
+			sourceTree = "<group>";
+		};
+		DEE737701FD51EB300F570D2 /* CoverFlowSlider */ = {
+			isa = PBXGroup;
+			children = (
+				DEE737711FD51ECE00F570D2 /* CoverFlowSliderViewController.swift */,
+			);
+			path = CoverFlowSlider;
+			sourceTree = "<group>";
+		};
+		DEE737731FD54E1700F570D2 /* ListCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DEE737761FD54E5F00F570D2 /* ListCollectionViewCell.swift */,
+				DEE737771FD54E5F00F570D2 /* ListCollectionViewCell.xib */,
+			);
+			path = ListCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		E359E97449DB34223AEDDD17 /* Pods */ = {
@@ -336,8 +378,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE737791FD54E5F00F570D2 /* ListCollectionViewCell.xib in Resources */,
 				DE9217B91FD0719D008261DA /* LaunchScreen.storyboard in Resources */,
 				DE9217B61FD0719D008261DA /* Assets.xcassets in Resources */,
+				DE9217F31FD4352D008261DA /* Contents.storyboard in Resources */,
 				DE9217B41FD0719D008261DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,13 +443,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MixedUILibrariesSample/Pods-MixedUILibrariesSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DeckTransition/DeckTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar.framework",
-				"${BUILT_PRODUCTS_DIR}/ScalingCarousel/ScalingCarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/VegaScrollFlowLayout/VegaScrollFlowLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeckTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexibleSteppedProgressBar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScalingCarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VegaScrollFlowLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,8 +476,12 @@
 				DE9217EF1FD43057008261DA /* UIViewControllerExtension.swift in Sources */,
 				DE9217EB1FD43057008261DA /* UIColorExtension.swift in Sources */,
 				DE9217F01FD43057008261DA /* UITableViewExtension.swift in Sources */,
+				DEE737781FD54E5F00F570D2 /* ListCollectionViewCell.swift in Sources */,
 				DE9217ED1FD43057008261DA /* UICollectionViewExtension.swift in Sources */,
+				DE92180B1FD49B55008261DA /* TutorialBaseViewController.swift in Sources */,
+				DE9217F51FD43549008261DA /* ListViewController.swift in Sources */,
 				DE9217EC1FD43057008261DA /* NSObjectProtocolExtension.swift in Sources */,
+				DEE737721FD51ECE00F570D2 /* CoverFlowSliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +531,14 @@
 				DE9217B81FD0719D008261DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE9217F11FD4352D008261DA /* Contents.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9217F21FD4352D008261DA /* Base */,
+			);
+			name = Contents.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -597,6 +659,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				INFOPLIST_FILE = MixedUILibrariesSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.MixedUILibrariesSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -613,6 +676,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				INFOPLIST_FILE = MixedUILibrariesSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.MixedUILibrariesSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

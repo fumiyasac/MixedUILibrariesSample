@@ -8,8 +8,11 @@ target 'MixedUILibrariesSample' do
   # Pods for MixedUILibrariesSample
 
   # UILaibrary
-  pod "FlexibleSteppedProgressBar"
-  pod "ScalingCarousel"  
+  pod 'FlexibleSteppedProgressBar'
+  pod 'VegaScrollFlowLayout'  
+  pod 'Hero', '1.0.0'
+  pod 'DeckTransition'
+  pod 'FSPagerView'
 
   # Utility
 
