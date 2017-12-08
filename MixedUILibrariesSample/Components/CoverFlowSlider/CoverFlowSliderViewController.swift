@@ -18,6 +18,12 @@ class CoverFlowSliderViewController: UIViewController {
         }
     }
 
+    fileprivate var coverflowContents: [Coverflow] = [] {
+        didSet {
+            self.coverFlowSliderView.reloadData()
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,6 +43,8 @@ class CoverFlowSliderViewController: UIViewController {
         coverFlowSliderView.itemSize = CGSize(width: 180, height: 120)
         coverFlowSliderView.interitemSpacing = 16
         coverFlowSliderView.transformer = FSPagerViewTransformer(type: .coverFlow)
+
+        coverflowContents = Coverflow.getSampleData()
     }
 }
 
@@ -45,15 +53,18 @@ class CoverFlowSliderViewController: UIViewController {
 extension CoverFlowSliderViewController: FSPagerViewDataSource, FSPagerViewDelegate {
 
     func numberOfItems(in pagerView: FSPagerView) -> Int {
-        return 8
+        return coverflowContents.count
     }
 
     func pagerView(_ pagerView: FSPagerView, cellForItemAt index: Int) -> FSPagerViewCell {
         let cell = pagerView.dequeueReusableCell(withReuseIdentifier: "cell", at: index)
+        let coverflow = coverflowContents[index]
+
         cell.contentView.layer.shadowOpacity = 0.4
         cell.contentView.layer.opacity = 0.86
+
+        cell.imageView?.image = coverflow.thumbnail
         cell.imageView?.contentMode = .scaleAspectFill
-        cell.imageView?.image = UIImage(named: "dummy")
         cell.imageView?.clipsToBounds = true
         return cell
     }

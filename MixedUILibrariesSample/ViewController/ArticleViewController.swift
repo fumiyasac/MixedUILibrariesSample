@@ -92,7 +92,7 @@ class ArticleViewController: UIViewController {
         articleTableView.registerCustomCell(ArticleDetailTableViewCell.self)
         articleTableView.registerCustomCell(ArticleUrlTableViewCell.self)
         articleTableView.registerCustomCell(ArticlePhotoTableViewCell.self)
-        
+
         articleContents = Article.getSampleData()
     }
     

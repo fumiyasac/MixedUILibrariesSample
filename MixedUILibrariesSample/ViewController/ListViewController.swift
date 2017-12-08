@@ -14,6 +14,12 @@ class ListViewController: UIViewController {
     //UI部品の配置
     @IBOutlet weak var listCollectionView: UICollectionView!
 
+    fileprivate var listContents: [List] = [] {
+        didSet {
+            self.listCollectionView.reloadData()
+        }
+    }
+
     //CollectionView表示の隙間やサイズに関する設定
     private let itemHeight: CGFloat  = 180
     private let lineSpacing: CGFloat = 15
@@ -47,6 +53,8 @@ class ListViewController: UIViewController {
 
         //リスト用のUICollectionViewの下部をセルの高さ分マージンを開ける
         listCollectionView.contentInset.bottom = itemHeight
+
+        listContents = List.getSampleData()
     }
 
     private func setupListCollectionViewLayout() {
@@ -69,11 +77,13 @@ extension ListViewController: UICollectionViewDataSource, UICollectionViewDelega
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCustomCell(with: ListCollectionViewCell.self, indexPath: indexPath)
+        let list = listContents[indexPath.row]
+        cell.setCell(list)
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 8
+        return listContents.count
     }
 
     func numberOfSections(in collectionView: UICollectionView) -> Int {
