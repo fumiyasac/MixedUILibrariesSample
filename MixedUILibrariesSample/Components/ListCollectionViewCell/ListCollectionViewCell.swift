@@ -7,13 +7,29 @@
 //
 
 import UIKit
+import Cosmos
 
 class ListCollectionViewCell: UICollectionViewCell {
+
+    //UIパーツの配置
+    @IBOutlet weak private var titleLabel: UILabel!
+    @IBOutlet weak private var thumbImageView: UIImageView!
+    @IBOutlet weak private var ratingStarView: CosmosView!
+    @IBOutlet weak private var totalPointLabel: UILabel!
+    @IBOutlet weak private var categoryLabel: UILabel!
+    @IBOutlet weak private var publishedDateLabel: UILabel!
+    @IBOutlet weak private var descriptionLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
 
         setupListCollectionViewCell()
+    }
+
+    //MARK: - Functions
+
+    func setCell(_ list: List) {
+        
     }
 
     //MARK: - Private Functions

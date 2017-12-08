@@ -1,24 +1,49 @@
 PODS:
-  - DeckTransition (1.4.2)
+  - ActiveLabel (0.8.0)
+  - AMScrollingNavbar (4.1.0)
+  - Cosmos (12.0.1)
   - FlexibleSteppedProgressBar (0.5.0)
+  - FontAwesome.swift (1.2.0)
   - FSPagerView (0.7.1)
-  - Hero (1.0.0)
+  - ParallaxHeader (2.0.0)
   - VegaScrollFlowLayout (1.1)
 
 DEPENDENCIES:
-  - DeckTransition
+  - ActiveLabel (from `git@github.com:optonaut/ActiveLabel.swift.git`, branch `master`)
+  - AMScrollingNavbar
+  - Cosmos (~> 12.0)
   - FlexibleSteppedProgressBar
+  - FontAwesome.swift (from `https://github.com/thii/FontAwesome.swift`, branch `swift-4.0`)
   - FSPagerView
-  - Hero (= 1.0.0)
+  - ParallaxHeader (~> 2.0.0)
   - VegaScrollFlowLayout
 
+EXTERNAL SOURCES:
+  ActiveLabel:
+    :branch: master
+    :git: git@github.com:optonaut/ActiveLabel.swift.git
+  FontAwesome.swift:
+    :branch: swift-4.0
+    :git: https://github.com/thii/FontAwesome.swift
+
+CHECKOUT OPTIONS:
+  ActiveLabel:
+    :commit: 0cf36d33138c0c3795ea08d632e6f26acbfb6551
+    :git: git@github.com:optonaut/ActiveLabel.swift.git
+  FontAwesome.swift:
+    :commit: ee1bf6b3db08f969ec7508c0feca3bac0d8b96ff
+    :git: https://github.com/thii/FontAwesome.swift
+
 SPEC CHECKSUMS:
-  DeckTransition: 56330226ddbefd2ddc9f57b8b56d37e0e93e6b91
+  ActiveLabel: c32bb6a81accc4a4c2dcab2d685036fcad537783
+  AMScrollingNavbar: f43ed1fcb784740199124aa79d3d53dfd7a81ade
+  Cosmos: 4a9f57998a08788a1062c7b8eefbc62d2b590f39
   FlexibleSteppedProgressBar: a8894ca4913e34ea2c694be09a7d4d6b1f1bdc74
+  FontAwesome.swift: 609815397a9b51cb4d774969787163c7d1306739
   FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
-  Hero: 18e7cf8af41c04c8532d1430ac174004a9365c87
+  ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
   VegaScrollFlowLayout: 9158061f29179147755f937c2b21693fc5dbbac3
 
-PODFILE CHECKSUM: 82eaf5cebee37cf54058152a99ce29a4a3c5e0e1
+PODFILE CHECKSUM: 6c285518d2ac0dfee8b18a7a40302bca3e72cebc
 
 COCOAPODS: 1.3.1

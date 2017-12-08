@@ -17,13 +17,14 @@ class MainViewController: UIViewController {
     //チュートリアル用のUI部品の配置
     @IBOutlet weak var tutorialTitleLabel: UILabel!
     @IBOutlet weak var tutorialCounterLabel: UILabel!
+    @IBOutlet weak var completeTutorialButton: UIButton!
 
     //ContainerViewにEmbedしたUIPageViewControllerのインスタンスを保持する
     fileprivate var pageViewController: UIPageViewController?
 
     //ページングして表示させるViewControllerを保持する配列
     fileprivate var tutorialControllerLists = [TutorialBaseViewController]()
-    
+
     //チュートリアル画面に表示するもの
     private let tutorialContents: [String] = [
         "タイトル1",
@@ -62,6 +63,7 @@ class MainViewController: UIViewController {
         stepIndicator.currentIndex = 0
     }
 
+    //UIPageViewControllerの初期設定
     private func setupPageViewController() {
 
         //ContainerViewにEmbedしたUIPageViewControllerを取得する
@@ -89,7 +91,7 @@ class MainViewController: UIViewController {
             //tutorialControllerListsに追加する
             tutorialControllerLists.append(tutorialBaseViewController)
         }
-        tutorialCounterLabel.text = "\(tutorialContents.count)"
+        tutorialCounterLabel.text = "1 of \(tutorialContents.count)"
     }
 }
 
@@ -108,7 +110,7 @@ extension MainViewController: UIPageViewControllerDelegate, UIPageViewController
 
                 //現在位置の表示インデクス番号を表示する
                 let currentCount = targetViewController.view.tag + 1
-                tutorialCounterLabel.text = "\(currentCount)"
+                tutorialCounterLabel.text = "\(currentCount) of \(tutorialContents.count)"
                 stepIndicator.currentIndex = targetViewController.view.tag
             }
         }
@@ -166,6 +168,7 @@ extension MainViewController: FlexibleSteppedProgressBarDelegate {
     //ステップインジケータに表示される文言を表示するメソッド
     func progressBar(_ progressBar: FlexibleSteppedProgressBar,
                      textAtIndex index: Int, position: FlexibleSteppedProgressBarTextLocation) -> String {
+        //特に必要ない場合にはカラッポの文字列にする
         return ""
     }
 }

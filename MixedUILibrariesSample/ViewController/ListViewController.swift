@@ -15,10 +15,10 @@ class ListViewController: UIViewController {
     @IBOutlet weak var listCollectionView: UICollectionView!
 
     //CollectionView表示の隙間やサイズに関する設定
-    private let itemHeight: CGFloat = 180
+    private let itemHeight: CGFloat  = 180
     private let lineSpacing: CGFloat = 15
-    private let spaceInset: CGFloat = 15
-    private let topInset: CGFloat = 10
+    private let spaceInset: CGFloat  = 15
+    private let topInset: CGFloat    = 10
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +35,7 @@ class ListViewController: UIViewController {
     //MARK: - Private Functiom
 
     private func setupNavigationBar() {
+        removeBackButtonText()
         navigationController?.view.backgroundColor = UIColor.black
     }
 
@@ -43,22 +44,20 @@ class ListViewController: UIViewController {
         listCollectionView.dataSource = self
         listCollectionView.registerCustomCell(ListCollectionViewCell.self)
 
-        //
+        //リスト用のUICollectionViewの下部をセルの高さ分マージンを開ける
         listCollectionView.contentInset.bottom = itemHeight
     }
 
     private func setupListCollectionViewLayout() {
 
-        //
+        //表示するセルのサイズや隙間に関する値の設定をする
         guard let layout = listCollectionView.collectionViewLayout as? VegaScrollFlowLayout else { return }
         layout.minimumLineSpacing = lineSpacing
         layout.sectionInset = UIEdgeInsets(top: topInset, left: 0, bottom: 0, right: 0)
 
-        //
         let itemWidth = UIScreen.main.bounds.width - 2 * spaceInset
         layout.itemSize = CGSize(width: itemWidth, height: itemHeight)
 
-        //
         listCollectionView.collectionViewLayout.invalidateLayout()
     }
 }
@@ -73,11 +72,15 @@ extension ListViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 18
+        return 8
     }
 
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "ToArticleViewController", sender: self)
     }
 }
 

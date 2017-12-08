@@ -75,11 +75,22 @@
                                     <segue destination="8jK-Zh-zed" kind="embed" id="kdd-WS-9ic"/>
                                 </connections>
                             </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpg-8R-3W4">
+                                <rect key="frame" x="37.5" y="603" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Ai7-CX-Fm4"/>
+                                    <constraint firstAttribute="height" constant="40" id="qqi-Wa-bfS"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tGt-mq-KQK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2tf-OC-41N"/>
                             <constraint firstItem="tGt-mq-KQK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="CXc-ko-9E9"/>
+                            <constraint firstItem="Kpg-8R-3W4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HYb-lN-TDG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kpg-8R-3W4" secondAttribute="bottom" constant="24" id="Na4-d3-DfE"/>
                             <constraint firstItem="Hpn-QU-Ww4" firstAttribute="top" secondItem="tGt-mq-KQK" secondAttribute="bottom" id="SBK-4b-vbI"/>
                             <constraint firstItem="Hpn-QU-Ww4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vub-pp-diB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hpn-QU-Ww4" secondAttribute="trailing" id="isK-cr-qfL"/>
@@ -89,6 +100,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="completeTutorialButton" destination="Kpg-8R-3W4" id="pDw-zo-c6e"/>
                         <outlet property="stepIndicator" destination="m3d-bY-ejA" id="XYH-4b-acJ"/>
                         <outlet property="tutorialCounterLabel" destination="EUi-Xp-2TR" id="59P-ie-RBd"/>
                         <outlet property="tutorialTitleLabel" destination="Rqd-No-aV7" id="SyT-9u-O4t"/>
@@ -105,13 +117,38 @@
                     <view key="view" contentMode="scaleToFill" id="Odd-Mw-PMW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UDf-fu-EFa">
+                                <rect key="frame" x="37" y="233" width="300" height="200"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="V7n-Es-sGa"/>
+                                    <constraint firstAttribute="width" constant="300" id="Zmo-bK-36W"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4S-rV-bqV">
+                                <rect key="frame" x="37" y="199" width="300" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="cJ2-J2-jK2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="14"/>
+                                <color key="textColor" red="0.99344800420000001" green="0.61462983630000001" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.45098039220000002" green="0.76470588240000004" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UDf-fu-EFa" firstAttribute="top" secondItem="D4S-rV-bqV" secondAttribute="bottom" constant="20" id="BOq-eE-8ga"/>
+                            <constraint firstItem="UDf-fu-EFa" firstAttribute="centerX" secondItem="Odd-Mw-PMW" secondAttribute="centerX" id="GBA-rU-drU"/>
+                            <constraint firstItem="UDf-fu-EFa" firstAttribute="centerY" secondItem="Odd-Mw-PMW" secondAttribute="centerY" id="I9S-ba-guR"/>
+                            <constraint firstItem="D4S-rV-bqV" firstAttribute="centerX" secondItem="Odd-Mw-PMW" secondAttribute="centerX" id="pRJ-nF-0VC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="i1z-0D-MFC"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I98-wW-Uyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1594" y="42"/>
+            <point key="canvasLocation" x="1592.8" y="41.829085457271368"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="2Ye-bs-ogN">

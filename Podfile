@@ -10,10 +10,10 @@ target 'MixedUILibrariesSample' do
   # UILaibrary
   pod 'FlexibleSteppedProgressBar'
   pod 'VegaScrollFlowLayout'  
-  pod 'Hero', '1.0.0'
-  pod 'DeckTransition'
   pod 'FSPagerView'
-
-  # Utility
-
+  pod 'ParallaxHeader', '~> 2.0.0'
+  pod 'AMScrollingNavbar'
+  pod 'Cosmos', '~> 12.0'
+  pod 'ActiveLabel', :git => 'git@github.com:optonaut/ActiveLabel.swift.git', :branch => 'master'
+  pod 'FontAwesome.swift', :git => 'https://github.com/thii/FontAwesome.swift', :branch => 'swift-4.0'
 end

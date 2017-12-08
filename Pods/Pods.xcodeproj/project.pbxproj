@@ -7,274 +7,302 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017A4EC1B38AB50FC4CB46643A0A77F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		027CA471A5342D9D831895410495EE51 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD372AA8A2762C70EE33561CE3B460 /* HeroTransition+UINavigationControllerDelegate.swift */; };
-		03BBD899B92EFE0E171DEF7B4A7DDE8B /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A92F218983F8A0DB31C60D9C32BDC /* FSPagerView.swift */; };
-		075CC243674F7187A841C287CA081280 /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EED77A3095C2164B6425141669EB0D3 /* FSPagerView-dummy.m */; };
-		0A449D9876FB5AABA25A730F95AC7A4D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9C10101855274C1782CEA44D27D95 /* Regex.swift */; };
-		0A69B0DEFD6FD1733EE1947354C4405D /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68ADB8F84F1BE51FA1DF15013EF4786 /* HeroCoreAnimationViewContext.swift */; };
-		131BD0796B5EF130D3C7224265B5E8C1 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A070018C55AAC8E3F6E95178FBD13 /* MatchPreprocessor.swift */; };
-		131BD954572AE0F9B1EF5F12B04BD724 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 441E0B08436F9F376EF32A4DE93A93A9 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16ED39F2E1F2201AF2B28557D19D3B6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		1EADF19A71D4F62CAA6CB59E5E0533D7 /* VegaScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF544D7F2AA56945AA830A0366342C /* VegaScrollFlowLayout.swift */; };
-		2000BB8BFA947AB4E0ED0A4767FA0A9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		204D3520639A613718C7CDE55BF72F08 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F720E7F49CA3DD588C87F645B47A5F /* HeroTargetState.swift */; };
-		2343A28E83028DD20164033969A52032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		25D582C7BC726A599A9617E36F915713 /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F7D81CA0C70C710577708172AE871 /* UIView+Hero.swift */; };
-		27FD20389DE927A6B90CD4102129692D /* FlexibleSteppedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6A6E63A9393E8D9D5FF83508B570F /* FlexibleSteppedProgressBar-dummy.m */; };
-		2CF3B69D4CB67F5879FE1DB227C9AF64 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF0E09FCF3FD5B904EB9868710672A /* Lexer.swift */; };
-		30AB9BE3D5DF2FDCCDDF2E716519D569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		352F03C98B59DB3789040D4B0D5C378A /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246FC4F32E669700EB57942F47EE0FED /* HeroTransition+CustomTransition.swift */; };
-		357D7C84290EBD2CF71498C07886F110 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7813AA84237B07AB47EF05D155C678 /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35A4093787659528EA71316206879AF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		36D208AC11591D029FDCEC0880EDB577 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F00352DF8AA8C86EC7943CA41F0917 /* Constants.swift */; };
-		36EE12CB455ACF1FD3C92E8DD64F78A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		37192B729206BAF40E1D706F618E1382 /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6C114001559B9371824274D8E7F4D /* UIViewController+Hero.swift */; };
-		3AE3FF8B91E9532FF99910BF956B9EE4 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05991320545A755EFD69ABA766CFE150 /* HeroTransition.swift */; };
-		3DD54CC124181B51D31CBD9B0F4168F7 /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFF282A925379055855100B5727DA1 /* HeroModifier+HeroStringConvertible.swift */; };
-		49AE593D92F5CBE570CF41E38452EE5B /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FE34D79187E8A6E6BA4B788928A406 /* Hero-dummy.m */; };
-		563D01EC84967B65555F62D8CBB3E345 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1038266BAD2BB393E13241B2CDE5EF /* HeroViewPropertyViewContext.swift */; };
-		56983408D1FF5A0551B0F06C72C448BD /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC06708F877F5AB1F0B2B405C77D18B /* HeroTransition+UITabBarControllerDelegate.swift */; };
-		5808A296321FB1C7BFDC15FCB88630B9 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E56152ACC8CC37E42E1A53B09E75BCA /* HeroTransition+Complete.swift */; };
-		5832B6C6DF42450FCAB70E67F464E040 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E0F37A64D02126E6D10BA50D8F752 /* FSPagerViewLayoutAttributes.swift */; };
-		5FB87368B5FB04EB64760BCA6F665426 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8651146B8F37CA29EE6FC15204040863 /* RoundedView.swift */; };
-		61B74C105955C9116ABD59E2863FD8D4 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB2215D7FA59B1FDC2D5EAF55127D0 /* HeroProgressRunner.swift */; };
-		6222A7FA01B835E09AAA4FA306164B35 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652C674B0606F71DA77357DC6280E72A /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
-		638D4086C988445EEC88BF66F3B5D3B9 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0367046D287E1D344EE8DC499878F24 /* FSPageViewTransformer.swift */; };
-		6F16E3CF88BBD2BAE86F1B09EA55311A /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B86FF4C1A5CD3E70AA8DC4A33582F /* FSPagerCollectionView.swift */; };
-		6F420113A9A1379D2AA89C0AC4871AA9 /* DeckTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B894A3E3BB82A09D1D41794A6EB164 /* DeckTransition-dummy.m */; };
-		71161C45211D45B28515CB86A9E1802D /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD73704EEB59A96FD6E7C67DCFB9B7B /* HeroContext.swift */; };
-		747D046BF6CCD6B22DE448A319259F4E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E15CD438CA7757DB7C78CC6E302E60 /* IgnoreSubviewModifiersPreprocessor.swift */; };
-		766C44B923C22D6143C77BAC15E2B7F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		77B0A88DF25424192EB6B5BF4126595F /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47615256FDA2B040250B5BBB9403351 /* CG+Hero.swift */; };
-		78240AA847324E0FF7FC54C066A999EA /* ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F188B81716F44EF0CB4D8EC6B99777D /* ManualLayout.swift */; };
-		79E391C6A3429405FB63474CF7218DE3 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5103872465CB55136CFC26ECFD6D8EED /* FSPagerViewCell.swift */; };
-		7CDF3BB1D6EDB7F09400B550C6E57B34 /* DeckPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573526BCD939423C182E5214557AC8F /* DeckPresentingAnimationController.swift */; };
-		7CED6E6CC35E080E1F94D9556FB54516 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC700DB65595E435A2E0879E49CE477D /* HeroTransition+Animate.swift */; };
-		7E504CF40EDABF5AA222A875D9BC7ACA /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27813C9C300691AFCFAB00D30C9504FE /* CascadePreprocessor.swift */; };
-		7E505B7D4AAC3DB7FD9939C6180BF6EC /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D2076EBFA5C03347894FA7E1B665 /* HeroPlugin.swift */; };
-		7E66EA58CC8DDA71E934871CE01AC864 /* DeckSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355CE471FC4F7D883C06EF65503764E2 /* DeckSegue.swift */; };
-		838BD1D2FCD856E3E7AAD63C498E9A92 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AF351969D1D1C1F0EFACC8C595671 /* FSPageControl.swift */; };
-		83A4CA041CBCA1A7AB9BA5A7843129C0 /* DeckTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF72223F7716937DE3E0140640F8275 /* DeckTransitioningDelegate.swift */; };
-		848D7A256DF502BD5EE79209C61277C9 /* Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE0F4CC562EE57F5D6B3E872939C27 /* Corner.swift */; };
-		881AF510050E703549E43CD24E242280 /* CGRect+InitWithCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49CE14ABF756F711AF1F57275D8DCD /* CGRect+InitWithCorner.swift */; };
-		88E51695CDC001BC4F639B2A593F18C7 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511CE2E90BAE8108720FB45023FD1A2 /* Nodes.swift */; };
-		8BC8035B9AB727C3410327F348C925A3 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2B4299C490B079E7F80A085BD5DE5 /* UIKit+Hero.swift */; };
-		8C3653BDEF1E1F99700554B973AA51F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		92974A612A492CD211BC6F98BCF8A74F /* FlexibleSteppedProgressBarTextLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF745F6C271F77D96B7F36B3FCC60DC /* FlexibleSteppedProgressBarTextLocation.swift */; };
-		931BBD3ED01CCED73A3D5BA967478AB1 /* FlexibleSteppedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5BC81CB02C999326E8643D5420B845 /* FlexibleSteppedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		965C605C46188E17796BA2B4C3A5A7E8 /* DeckPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E40ED63FE5CBD979753CF84B7D49B /* DeckPresentationController.swift */; };
-		97E12FCF1B28A57823ADD1E597654152 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6DABCDFC432B6B9064BCDFFEC4701E /* SourcePreprocessor.swift */; };
-		9903452D1A2F79036069ED51C4E815B9 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689333D6E04776EC2332B51B55A4A79C /* HeroAnimatorViewContext.swift */; };
-		9C2088FBF674C01D2BAF903FEF262A3C /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B09CEFBD30EF848645FE86F4323CB46 /* HeroDefaultAnimator.swift */; };
-		9E21B6709CA859CCABB8B6BAB15FF4F8 /* FSPBPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B56F57D356A0ADFC2C91E60C5A6297 /* FSPBPointExtension.swift */; };
-		A33055BEFE64D3D97776781526F8BE83 /* DeckTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BD92A66B0302624E4813822C9769ED /* DeckTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A57F7AE8A5556A3D64F55C382D1DAAB0 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26F2F2EEBF16DBCF52EF8700EBF25 /* Array+HeroModifier.swift */; };
-		A795AE72B5EE8756ABF434D88933FC9B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9AB74FFA9350250D961374CB95AA87 /* Parser.swift */; };
-		A965C4E5CB15D097267FDFFAA0DA6935 /* VegaScrollFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E908CD8D82FB5F21598E5E5DB40DA7FE /* VegaScrollFlowLayout-dummy.m */; };
-		A99B729B07E3C22CA75E3A9D1C177E80 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7372B31329C405F8E74CBE5965BD03A6 /* DispatchQueue+Hero.swift */; };
-		AA8E9CFD62CDE580E7E1EC264551F38B /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2D889435F8BC0E3D51D2B22B123C4 /* HeroViewControllerDelegate.swift */; };
-		AF0A61424C9BF4646490D9BD1617E643 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = E047FCB1F851430325CB57DF5BD2BA82 /* HeroTransition+Start.swift */; };
-		B58AFF691857FEDC9B81A0B5C2667664 /* VegaScrollFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFBE2BE4E06BD133FEE133AAD7060E0 /* VegaScrollFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6F97F627ED13C6632CD06960ACA5384 /* FSPBTextLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44359BFE90DB52239487F5433CAE45 /* FSPBTextLayerExtension.swift */; };
-		B9F5BBA79C9EBDBA4CE8C5A880CBE225 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52592AD7A09325F8E39005A8E3A9049 /* ConditionalPreprocessor.swift */; };
-		BBE09246438619B492597D31F1B36ED6 /* CGRect+Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37647AF276D6E04CB8E3E3D6D6B3297A /* CGRect+Corners.swift */; };
-		C0E6F41B7C62B639A9E71E1A0B43B228 /* DeckTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8C2F2783E22AC66477135A0BD05CD7 /* DeckTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C267D28B5B4F65BBB2C8CCB7DAB6F979 /* Pods-MixedUILibrariesSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 532952F5D8CFD24A09C4136DCCF22640 /* Pods-MixedUILibrariesSample-dummy.m */; };
-		C624C2987F7BF3FAEDE3F8A8A1EF29CF /* DeckDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3AD32834BA4BA41E03494DF39FCECC /* DeckDismissingAnimationController.swift */; };
-		C642407E48D361352456FCFEBCC8ED42 /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D9DE31E602FAAB02FB20CF6EB411A /* HeroTransitionState.swift */; };
-		C67899E2E59EB7BBD1D068A3026E9BED /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D444757D8BB3964EB06E3A85E2E05DC /* HeroTransition+Interactive.swift */; };
-		CF845EB085D70097F1EB8773318B0CF1 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021EFA0FF1CEE6C39378C23C111DE5F5 /* HeroDebugPlugin.swift */; };
-		D6D047A2C02C9C8F7B6F021B524CF348 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE87B64F87FDAD58A68E00B5C9B3D01 /* BasePreprocessor.swift */; };
-		D885B781E26415615CD22FE922BC1EE4 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E4C136951D05B2D0EE0C2086D5BF26 /* CALayer+Hero.swift */; };
-		E1004C8A59E38E2FEF3005D26DD274EA /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C9B79C718CBDE089905E8612AB7AD /* HeroDebugView.swift */; };
-		E3F56636076B5C10C747E49D0D0C052C /* FlexibleSteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953939FAD9E156EBA802CBFADB15435 /* FlexibleSteppedProgressBar.swift */; };
-		E7A4350076F629FDF59C0C8AA3848BA5 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADED5765CE447900109C5883108991 /* CornerView.swift */; };
-		EA5B8FA8A9DC1D3A202FE5CCD9DBD458 /* Pods-MixedUILibrariesSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8800BE725FF734245A6DBF43CBF3361F /* Pods-MixedUILibrariesSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC8E0FBFF1C71C7DDE5D00C7F256E520 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB3F732A17EE02F49B4666E0101AB4 /* CAMediaTimingFunction+Hero.swift */; };
-		ED1C6E8669DC14BA45A27357DF7CEF6A /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17573EE8CCCFA11073ACDAF00FD35F68 /* HeroModifier.swift */; };
-		EE5470ABD037E64652E37F1BCB266F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		EF7A5C637E0EBCDE614DB920809819B2 /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915F5855D47F7F2E80701C1A3F56F8C7 /* HeroStringConvertible.swift */; };
-		F2EB55C94CA30419C27C11BC2C2BD535 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686C0C238499F8B03A83514C2F9983F /* HeroTypes.swift */; };
-		FABCE800A63BF5574D9A7A04E81E2F03 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B61434A57AC4F903ABD73946E5006 /* DefaultAnimationPreprocessor.swift */; };
-		FED3B2A51B9910D524980ACD078DE5AC /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAE6BDB41C24BD1BB90132223F0E4F5 /* FSPageViewLayout.swift */; };
+		015C902B9C0E63DA0519A0D34E10F739 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034F51C3C9B44CD158D82ECE22127DC /* CosmosSettings.swift */; };
+		017A4EC1B38AB50FC4CB46643A0A77F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		01B27FC9177EE975C7A01F452ECBB6DC /* ParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5599618A4125C3F2BC68C5408A8D55 /* ParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03BBD899B92EFE0E171DEF7B4A7DDE8B /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C118A939D9EDC7C66F8C6501FF5830 /* FSPagerView.swift */; };
+		0579789C35C8EEE35142D4D57697E3CE /* Pods-MixedUILibrariesSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 532952F5D8CFD24A09C4136DCCF22640 /* Pods-MixedUILibrariesSample-dummy.m */; };
+		06D57843FA94742096D0970E60ACE215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		075CC243674F7187A841C287CA081280 /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4EE4C8461CE569721DB78493A9FFD7 /* FSPagerView-dummy.m */; };
+		0EC88D04EAE0CD3EFD3C3C89C1B9F45F /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA46D7921075164DDF241D7D397FF31 /* CosmosLocalizedRating.swift */; };
+		0FADB898DE00224562E48A0E24A7B701 /* ParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D866B3E30D2485B61FB2E8B8B9824A9 /* ParallaxHeader-dummy.m */; };
+		10CA952B7CFB5D09A9CC2FDF651EC409 /* Pods-MixedUILibrariesSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8800BE725FF734245A6DBF43CBF3361F /* Pods-MixedUILibrariesSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FFFFB3DFD3D36679B897AFD3F531B1 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C20CB8734DD18B0DC59329B4E3B4A6D /* UIScrollView+ParallaxHeader.swift */; };
+		1975B6AA9B16FC0DA03173B01468ECB8 /* VegaScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3901EA32C0F5E0223D07D415F7C630 /* VegaScrollFlowLayout.swift */; };
+		24065029085002EAC70A3422A7D39EC1 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 369BBB597ECDDA12B5042EA8B61C744F /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25DFA72039CBA011EBA738AA73084A8E /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD3B561169FC026588DD7A6EE84B8F /* CosmosSize.swift */; };
+		27FD20389DE927A6B90CD4102129692D /* FlexibleSteppedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD0EF7A3375970173D8F0DB70478D0 /* FlexibleSteppedProgressBar-dummy.m */; };
+		2AE0F58A0988D92438C1448C861A154C /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC719F704A3C1110C55285363A8F7F3C /* FontAwesomeImageView.swift */; };
+		2DC337ED8DDE504E8BE546D56D25C1B8 /* ActiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B44B83A59365EB3FCC9371B32EC3E /* ActiveType.swift */; };
+		30AB9BE3D5DF2FDCCDDF2E716519D569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		357D7C84290EBD2CF71498C07886F110 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE27922FA6D31A894C9BFAE220CA551 /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371F422D050761A63F0156F537B8902D /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F2A5D9BB30B59943F16F21975F946 /* CosmosDefaultSettings.swift */; };
+		3DF6ECF23D38E7DA5B5B2B43707F2F4D /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D3263065874CB2CBD9363D25A9650A /* Cosmos-dummy.m */; };
+		41FAD1CDCD9272883A6CF33FE8FF44E0 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C3809C687383667A7F6DEB1526963 /* FontAwesomeSegmentedControl.swift */; };
+		424AD9605CBDCD867083B9820784E0AC /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93371D54FF4E540848640A5A9E730870 /* CosmosText.swift */; };
+		45F546D14166EDEE46371951EC705C03 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449615ECBD8B9AB171DD9B5BA9EABA5A /* CosmosView.swift */; };
+		4686DB5DBB538B91A065969C4837FC23 /* RegexParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C95D8C1C0FA2FF0B32ACB1B081EA5D /* RegexParser.swift */; };
+		488FE105FB5E06CBCD83B1A82771FE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		4B6EDD191FC60FE07099E49AF161EB91 /* ActiveLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CBD6F551C71E9E69521B4F080FEDA17 /* ActiveLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC2830689D95406AC2A3AF3F47D366D /* VegaScrollFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DBD21AE937309E990653242CE4787A /* VegaScrollFlowLayout-dummy.m */; };
+		4EFA908CA9A3E9A800B618AC902F5990 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3FCEEF6B981D65DA4905787B060C42D /* FontAwesome.swift.bundle */; };
+		4F40A9CBB316E7100828F0C6F5714946 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CE956006713C46D1FC0E975BD4D579 /* CosmosTouch.swift */; };
+		522BEF444AEAA78D1747B62ED49C688E /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FCAF20E9FC9C9E7478C11C3E2BECA /* FontAwesomeView.swift */; };
+		5832B6C6DF42450FCAB70E67F464E040 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979A290904F870BEF0C8E1859BF2DB4C /* FSPagerViewLayoutAttributes.swift */; };
+		589D19F8FC8F1E9D6360D950D26A7138 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331DC3AC6598C94DD0BC504996A5CA7D /* FontAwesome.swift */; };
+		5AD3E160E28F5EFC4D17A8668CA322BD /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0132A4D5F1DA05496AD2873A50A16D /* FontAwesomeBarButtonItem.swift */; };
+		60D1D0983AB9AE45FBD6EC14E233EBDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		638D4086C988445EEC88BF66F3B5D3B9 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFBE06BB550F1DD007EAADC169C25E4 /* FSPageViewTransformer.swift */; };
+		65D01C54FCF24BF6E6FBCD49F6E7CCB1 /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797686C9C2CEBF1331A0C2B2B4A8D5F9 /* FontAwesomeTabBarItem.swift */; };
+		677F77D6EEEA10639768AA1FB5ED7C84 /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CB8F93FD4B7FB1127208A76D6DBF1 /* ParallaxHeaderMode.swift */; };
+		684E126B8E890761BBB1A4EB590EA1F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		6CE2536CC728DAE16622A4B012D8B6F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		6D627716E176C277319B4F8FCC80593C /* VegaScrollFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FEFF5E7F2C1DA14A9922F71EB1B146 /* VegaScrollFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F16E3CF88BBD2BAE86F1B09EA55311A /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0452476919E8F3CFFC526182900CDEE /* FSPagerCollectionView.swift */; };
+		766C44B923C22D6143C77BAC15E2B7F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		76BE7E023F97AF8B54BA61C875EB0EEA /* ActiveBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524AF2CEEC93B8F49F883C85B507127 /* ActiveBuilder.swift */; };
+		79E391C6A3429405FB63474CF7218DE3 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315A2D85AED626DF83F68EAFD37CA687 /* FSPagerViewCell.swift */; };
+		7CC5A43D7E1372EB6292FCBC0151A36E /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995C2DAC5DD3D194BC90698A031A902 /* CosmosAccessibility.swift */; };
+		838BD1D2FCD856E3E7AAD63C498E9A92 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78E7DAD668DFD7E3D312097C9BF864 /* FSPageControl.swift */; };
+		845851E9B86F87F9183224A05BAE197C /* ScrollingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08797CF9C93BCA091DC7E85A9F74CF9 /* ScrollingNavigationController.swift */; };
+		88BA9FFC474BD7B995A0CEA06FF431F7 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B272A7E7527511D839EC82C681796 /* StarFillMode.swift */; };
+		8C3653BDEF1E1F99700554B973AA51F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		92974A612A492CD211BC6F98BCF8A74F /* FlexibleSteppedProgressBarTextLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403CF5B768899E096C7EC6EA0E746318 /* FlexibleSteppedProgressBarTextLocation.swift */; };
+		931BBD3ED01CCED73A3D5BA967478AB1 /* FlexibleSteppedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B327A0CEBA9B1CC8488923B02AE3486 /* FlexibleSteppedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948FCFAE602EB3894A4B29F5850022D9 /* StringTrimExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DC472EE7ED76E9D27AE85F82404F8 /* StringTrimExtension.swift */; };
+		97ED6F1AA5A07ACEDF982802FEEF45A1 /* AMScrollingNavbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B18A04258B594E2121C21A8F602AC1F3 /* AMScrollingNavbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99F08F6FE2B165EEBD5E01EDDA176620 /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D66A9AC92AC4C57B90735B702878F9 /* CosmosRating.swift */; };
+		9E21B6709CA859CCABB8B6BAB15FF4F8 /* FSPBPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4EF9CD1FE5B2583783DF90F3047AB /* FSPBPointExtension.swift */; };
+		A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		AA971D9492DD9B9E288045C2C0CC9A99 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F617269D6D7BF12217AEFA053F39E2A /* CosmosLayers.swift */; };
+		B6F97F627ED13C6632CD06960ACA5384 /* FSPBTextLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C8EACA844F3A2218F1FFA4302C80F3 /* FSPBTextLayerExtension.swift */; };
+		BA158509B4673EB6F8D0D12961169AB1 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FA5996C22014B4DEB0F77B9B4E06D /* Enum.swift */; };
+		C3079113A27F987B6889C2E9C05A10DD /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 631A060139DA800B7CD17A9D4C7C2427 /* FontAwesome.otf */; };
+		C4EDDFD00880AD17F1BB7D66948F1D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		C79D2F2FCE3EF9B31D1222E0C4A59DC5 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFC7E441C849B830B8A659D7427B02 /* RightToLeft.swift */; };
+		C879A43B7C8CC16E986D40441C2F2878 /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8C0CD29835C8F18EE6806BE7ED4E4 /* FontAwesomeImageRepresentable.swift */; };
+		C95B658D689425ED9DAA95EB479B44A6 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0EF3340B941DFE7BD0292633F1080 /* StarLayer.swift */; };
+		CBD91B03AC387775166237F805EABC3A /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95886A5F40E45D5F2C47FA1582342BE /* FontAwesomeStateRequirement.swift */; };
+		D17E667432A26A786DE09C0310A04041 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C4C2C0BD5EFFD93443B1A7785AAB8 /* ParallaxHeader.swift */; };
+		D66952E2B42275117EFCAC8AEBCCCE39 /* ScrollingNavbar+Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4473F2C758632AE825BF34804A9E995F /* ScrollingNavbar+Sizes.swift */; };
+		D74CC593702969A2913A437BF310FF7F /* ActiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4028125B84D657E18B20FBD0DC0C7955 /* ActiveLabel.swift */; };
+		DAC2CACA22AE100EB261D377EC6FBE3C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
+		DE5E91A47C1BF6869DF17747D61C2FF1 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4125226E1FF95A00335600833E961706 /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF166A82DF58512DB0908330B037E29E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		E2D8D1AA0D41C73C4B570DE682C05D72 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F2FF60BDB53A717D74DF21A930A0D /* CosmosTouchTarget.swift */; };
+		E3F56636076B5C10C747E49D0D0C052C /* FlexibleSteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2E6F46BA5FF54754EFB2C549B612F /* FlexibleSteppedProgressBar.swift */; };
+		F40A2DB8664546D157EF374976225384 /* ScrollingNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F5E23BCCF9BE7E67969CEB3794F10 /* ScrollingNavigationViewController.swift */; };
+		F5C368CE11EF85B6ECFD00690BC551A4 /* ActiveLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2061629BBAF2E669966A8807CBD35B8 /* ActiveLabel-dummy.m */; };
+		F66DE3EF01408C42C115587B201CB541 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB042439DFCEF2F84B973C8D07AEDD /* CosmosLayerHelper.swift */; };
+		F89EEB37E919F207C3F6350D0EC6A23B /* AMScrollingNavbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF737BCF11E2C040D3CEA093AD48014E /* AMScrollingNavbar-dummy.m */; };
+		FB64A64BD408EE7BBD70A4B048315C7D /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17934A966F3774852B3DE3970A8560B1 /* FontAwesomeTextRepresentable.swift */; };
+		FD8C615CEC6F1EBDB63BF3240583D2F3 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D88051D3088ACF408D56D52D5D3A60E1 /* FontAwesome.swift-dummy.m */; };
+		FED3B2A51B9910D524980ACD078DE5AC /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B7D9D9E50F28314854FF5F5124556 /* FSPageViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		19F048E42397C3CD342E2853B54D0AEA /* PBXContainerItemProxy */ = {
+		0661B1C2EC6484F9963C31A52B7D35D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 878CFD6608614D017343D238F44ED042;
-			remoteInfo = FlexibleSteppedProgressBar;
+			remoteGlobalIDString = CD11672B6619C297B6AEE3DFB8213C59;
+			remoteInfo = FontAwesome.swift;
 		};
-		5B6C4199C2CBB46EB36A0FC99BF3D853 /* PBXContainerItemProxy */ = {
+		1041DAE7D452C6D8CC344DAA32955614 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C6B9453542F050BBBD118EA2D57B98C;
-			remoteInfo = DeckTransition;
+			remoteGlobalIDString = CA93AB8A17287A86D94CE6288969EA3D;
+			remoteInfo = VegaScrollFlowLayout;
 		};
-		6544AB400C1E70D7AE2EAD694F176773 /* PBXContainerItemProxy */ = {
+		53756038DEBCB0D44155D5280DAD3198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B7BEF22A2D2E5C2E4174836475BC47B;
+			remoteInfo = AMScrollingNavbar;
+		};
+		5B8003FC73D49E144AF7B37E2A09B975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EADC98135BDFF218FA8EEA855120208;
+			remoteInfo = ParallaxHeader;
+		};
+		73F8593A958147FBC41D37D7BF0BF139 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED279AFE7EA745A57B7B9F35AD5F2C9F;
 			remoteInfo = FSPagerView;
 		};
-		EBA68FAA46ECC4082953BE232B1006DD /* PBXContainerItemProxy */ = {
+		A1E7ADA9414728070F39599079B02152 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83C26A1A65032AB1408D01604F119111;
-			remoteInfo = Hero;
+			remoteGlobalIDString = 6991F49AED797519343B1F4591001691;
+			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
 		};
-		FF3957C2D32AEFA2533684CC3B82CB6F /* PBXContainerItemProxy */ = {
+		DAE73EBCF1450EAB9E0BADF08CFFEB77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C10B669321B83C5189EB219363E8C582;
-			remoteInfo = VegaScrollFlowLayout;
+			remoteGlobalIDString = 878CFD6608614D017343D238F44ED042;
+			remoteInfo = FlexibleSteppedProgressBar;
+		};
+		DE7AE51A28AD92D98C6A6FE11589DDE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EBDD3BC77EFE921F5EFB115E0E3B3D;
+			remoteInfo = ActiveLabel;
+		};
+		E221DBDF4F5F79474A65AFA799CDD35A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDC533A4360A68ABDCE852F04B30927;
+			remoteInfo = Cosmos;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E4C136951D05B2D0EE0C2086D5BF26 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
-		021EFA0FF1CEE6C39378C23C111DE5F5 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
-		05991320545A755EFD69ABA766CFE150 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
-		0B7D9DE31E602FAAB02FB20CF6EB411A /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
-		112AF351969D1D1C1F0EFACC8C595671 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
-		17573EE8CCCFA11073ACDAF00FD35F68 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
-		17C292EE3A64ADED99506BA4E6B3E64C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AC06708F877F5AB1F0B2B405C77D18B /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
-		1DE87B64F87FDAD58A68E00B5C9B3D01 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
-		1EED77A3095C2164B6425141669EB0D3 /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
-		1F3AD32834BA4BA41E03494DF39FCECC /* DeckDismissingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckDismissingAnimationController.swift; path = Source/DeckDismissingAnimationController.swift; sourceTree = "<group>"; };
-		246FC4F32E669700EB57942F47EE0FED /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
-		25B894A3E3BB82A09D1D41794A6EB164 /* DeckTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeckTransition-dummy.m"; sourceTree = "<group>"; };
-		27813C9C300691AFCFAB00D30C9504FE /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
-		28D6A6E63A9393E8D9D5FF83508B570F /* FlexibleSteppedProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleSteppedProgressBar-dummy.m"; sourceTree = "<group>"; };
-		2B7A070018C55AAC8E3F6E95178FBD13 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
-		32E88826605F1381FF1EC0B2CE3B90EA /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
-		355CE471FC4F7D883C06EF65503764E2 /* DeckSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckSegue.swift; path = Source/DeckSegue.swift; sourceTree = "<group>"; };
-		3686C0C238499F8B03A83514C2F9983F /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
-		37647AF276D6E04CB8E3E3D6D6B3297A /* CGRect+Corners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Corners.swift"; path = "Source/RoundedView/CGRect+Corners.swift"; sourceTree = "<group>"; };
-		37A2D889435F8BC0E3D51D2B22B123C4 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
-		390D57C658842525492D190DF933EFED /* FlexibleSteppedProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexibleSteppedProgressBar.framework; path = FlexibleSteppedProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39F00352DF8AA8C86EC7943CA41F0917 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Constants.swift; sourceTree = "<group>"; };
-		3C2679A80C5293E417CB24F82DF18C36 /* VegaScrollFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VegaScrollFlowLayout.xcconfig; sourceTree = "<group>"; };
-		3FBF544D7F2AA56945AA830A0366342C /* VegaScrollFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VegaScrollFlowLayout.swift; path = VegaScroll/Classes/VegaScrollFlowLayout.swift; sourceTree = "<group>"; };
-		40F3C9DF05AD1471758BC67A469C89CD /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
-		441E0B08436F9F376EF32A4DE93A93A9 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
-		4539329D34634092E5470EA0405D30D4 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hero.modulemap; sourceTree = "<group>"; };
-		458B86FF4C1A5CD3E70AA8DC4A33582F /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
-		482E0F37A64D02126E6D10BA50D8F752 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
-		4A44359BFE90DB52239487F5433CAE45 /* FSPBTextLayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBTextLayerExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBTextLayerExtension.swift; sourceTree = "<group>"; };
-		4BDFF282A925379055855100B5727DA1 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
-		4BFBE2BE4E06BD133FEE133AAD7060E0 /* VegaScrollFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-umbrella.h"; sourceTree = "<group>"; };
-		4CADED5765CE447900109C5883108991 /* CornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CornerView.swift; path = Source/RoundedView/CornerView.swift; sourceTree = "<group>"; };
-		4E56152ACC8CC37E42E1A53B09E75BCA /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
-		4F188B81716F44EF0CB4D8EC6B99777D /* ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManualLayout.swift; path = Source/ManualLayout.swift; sourceTree = "<group>"; };
-		5103872465CB55136CFC26ECFD6D8EED /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
+		00AD0EF7A3375970173D8F0DB70478D0 /* FlexibleSteppedProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleSteppedProgressBar-dummy.m"; sourceTree = "<group>"; };
+		01D98B426AAE29BD6E4A1305A4DB7CEF /* AMScrollingNavbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMScrollingNavbar.framework; path = AMScrollingNavbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		027B66ECA6B491BE8423AE5B9D49D738 /* ActiveLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActiveLabel.xcconfig; sourceTree = "<group>"; };
+		02D3263065874CB2CBD9363D25A9650A /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		02FEE086BDF7DBEA2794FE6A13053C6C /* FlexibleSteppedProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		080C5D9C8CACFA54E6371C1A472F4485 /* AMScrollingNavbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMScrollingNavbar-prefix.pch"; sourceTree = "<group>"; };
+		0A8B7D9D9E50F28314854FF5F5124556 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
+		0C5599618A4125C3F2BC68C5408A8D55 /* ParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
+		0C6A8E91F10878CF5084F20FC4EA3D2B /* AMScrollingNavbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMScrollingNavbar.xcconfig; sourceTree = "<group>"; };
+		0E9CB8F93FD4B7FB1127208A76D6DBF1 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeaderMode.swift; path = ParallaxHeader/ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		0ED53933247C323B4F6AD1EBCFC311DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103267588048AC03B258551A424863AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CFC7E441C849B830B8A659D7427B02 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		120B22FE6471654A696C1421BC8407A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D66A9AC92AC4C57B90735B702878F9 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		14D79E8369EA3D35A6DF6B338A0CE1C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17934A966F3774852B3DE3970A8560B1 /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		18DDA1178470159AC75FBFEDF3583BBD /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		18FD3F3CB82954B199154D9691CB0F22 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
+		19EA6ADABBC13B541C2AD19B34597D04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBD6F551C71E9E69521B4F080FEDA17 /* ActiveLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActiveLabel-umbrella.h"; sourceTree = "<group>"; };
+		1EA46D7921075164DDF241D7D397FF31 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		232427D59189ADAC21292A31E871B698 /* VegaScrollFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VegaScrollFlowLayout.framework; path = VegaScrollFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		284056346B68206C9E2A4F3D5F7A9AE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB4EF9CD1FE5B2583783DF90F3047AB /* FSPBPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBPointExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBPointExtension.swift; sourceTree = "<group>"; };
+		315A2D85AED626DF83F68EAFD37CA687 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
+		331DC3AC6598C94DD0BC504996A5CA7D /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		369BBB597ECDDA12B5042EA8B61C744F /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		3D2D021E6B0FCFDD80AF739D94920640 /* ParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ParallaxHeader.modulemap; sourceTree = "<group>"; };
+		3E81F935BC03C0C7483869ECE7C50901 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		4028125B84D657E18B20FBD0DC0C7955 /* ActiveLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveLabel.swift; path = ActiveLabel/ActiveLabel.swift; sourceTree = "<group>"; };
+		403CF5B768899E096C7EC6EA0E746318 /* FlexibleSteppedProgressBarTextLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBarTextLocation.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBarTextLocation.swift; sourceTree = "<group>"; };
+		40C118A939D9EDC7C66F8C6501FF5830 /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
+		4125226E1FF95A00335600833E961706 /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		412AC08F1AEE1C6CCE00A9D466FBC924 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		41DD3B561169FC026588DD7A6EE84B8F /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		4473F2C758632AE825BF34804A9E995F /* ScrollingNavbar+Sizes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ScrollingNavbar+Sizes.swift"; path = "Source/ScrollingNavbar+Sizes.swift"; sourceTree = "<group>"; };
+		449615ECBD8B9AB171DD9B5BA9EABA5A /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		4524AF2CEEC93B8F49F883C85B507127 /* ActiveBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveBuilder.swift; path = ActiveLabel/ActiveBuilder.swift; sourceTree = "<group>"; };
+		4A3D493EA57B597DF75AF5A9E681503E /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FSPagerView.modulemap; sourceTree = "<group>"; };
+		4B327A0CEBA9B1CC8488923B02AE3486 /* FlexibleSteppedProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		4FE27922FA6D31A894C9BFAE220CA551 /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
+		515B272A7E7527511D839EC82C681796 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		52DBD21AE937309E990653242CE4787A /* VegaScrollFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VegaScrollFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		530C4C2C0BD5EFFD93443B1A7785AAB8 /* ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeader.swift; path = ParallaxHeader/ParallaxHeader.swift; sourceTree = "<group>"; };
 		532952F5D8CFD24A09C4136DCCF22640 /* Pods-MixedUILibrariesSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MixedUILibrariesSample-dummy.m"; sourceTree = "<group>"; };
-		57DB3F732A17EE02F49B4666E0101AB4 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
-		57FD372AA8A2762C70EE33561CE3B460 /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
-		58C6C114001559B9371824274D8E7F4D /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
-		591F7D81CA0C70C710577708172AE871 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
-		5B5C622A84E89EC230712C7F721D8BED /* FlexibleSteppedProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-prefix.pch"; sourceTree = "<group>"; };
-		5C8C2F2783E22AC66477135A0BD05CD7 /* DeckTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeckTransition.h; path = "Source/Supporting Files/DeckTransition.h"; sourceTree = "<group>"; };
-		5D444757D8BB3964EB06E3A85E2E05DC /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
-		5D9AB74FFA9350250D961374CB95AA87 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
-		5EF745F6C271F77D96B7F36B3FCC60DC /* FlexibleSteppedProgressBarTextLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBarTextLocation.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBarTextLocation.swift; sourceTree = "<group>"; };
-		5F23392079A6677EDF9BA7A3B87AA9B5 /* DeckTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DeckTransition.modulemap; sourceTree = "<group>"; };
-		652C674B0606F71DA77357DC6280E72A /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
-		6573526BCD939423C182E5214557AC8F /* DeckPresentingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckPresentingAnimationController.swift; path = Source/DeckPresentingAnimationController.swift; sourceTree = "<group>"; };
-		657CEC6B4580F56CB22E98710A4C298E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		689333D6E04776EC2332B51B55A4A79C /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
-		6A77C6A951BA844C5315F18A4C10C701 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
-		6C208D820F78ABF2F65ACD240202A44B /* Pods_MixedUILibrariesSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MixedUILibrariesSample.framework; path = "Pods-MixedUILibrariesSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C5BC81CB02C999326E8643D5420B845 /* FlexibleSteppedProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-umbrella.h"; sourceTree = "<group>"; };
-		703A92F218983F8A0DB31C60D9C32BDC /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
-		724AE95191FE8A31395206E57D6F770E /* FlexibleSteppedProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FlexibleSteppedProgressBar.modulemap; sourceTree = "<group>"; };
-		7372B31329C405F8E74CBE5965BD03A6 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
-		80D9C10101855274C1782CEA44D27D95 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
-		836543687F9DE4A1091789875EA58668 /* DeckTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeckTransition.xcconfig; sourceTree = "<group>"; };
-		8511CE2E90BAE8108720FB45023FD1A2 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
-		85F62C7C2036CE925A13772686E4AB4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8651146B8F37CA29EE6FC15204040863 /* RoundedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedView.swift; path = Source/RoundedView/RoundedView.swift; sourceTree = "<group>"; };
+		54C95D8C1C0FA2FF0B32ACB1B081EA5D /* RegexParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexParser.swift; path = ActiveLabel/RegexParser.swift; sourceTree = "<group>"; };
+		5B4F2A5D9BB30B59943F16F21975F946 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		5F617269D6D7BF12217AEFA053F39E2A /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		631A060139DA800B7CD17A9D4C7C2427 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
+		6826E503D0A490BCCFDFDE0CFFC14F6B /* Cosmos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.xcconfig; sourceTree = "<group>"; };
+		6A75F5969954D4174C35B78EC99C834E /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		6C78E7DAD668DFD7E3D312097C9BF864 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
+		6E1791ED3D41A246716AADD6005491E2 /* VegaScrollFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VegaScrollFlowLayout.xcconfig; sourceTree = "<group>"; };
+		7034F51C3C9B44CD158D82ECE22127DC /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		78165121BA837802B6FEA9B6517F7054 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797686C9C2CEBF1331A0C2B2B4A8D5F9 /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		7D866B3E30D2485B61FB2E8B8B9824A9 /* ParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		7DD31068148523F76C8260058F2E49AB /* ActiveLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActiveLabel.framework; path = ActiveLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4EE4C8461CE569721DB78493A9FFD7 /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
+		7F5F5E23BCCF9BE7E67969CEB3794F10 /* ScrollingNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingNavigationViewController.swift; path = Source/ScrollingNavigationViewController.swift; sourceTree = "<group>"; };
+		809F8ACA3193E6EA1B82C7C201F6B111 /* ActiveLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActiveLabel-prefix.pch"; sourceTree = "<group>"; };
+		80FCF28D7C1048033E12AC8C99920AD4 /* FlexibleSteppedProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.xcconfig; sourceTree = "<group>"; };
+		813C8771BA2C470D286C95FBDCD66D4A /* ParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ParallaxHeader.framework; path = ParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D8C0CD29835C8F18EE6806BE7ED4E4 /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
+		865A1FEFD4325D30AEA06E4D96CB71D8 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8800BE725FF734245A6DBF43CBF3361F /* Pods-MixedUILibrariesSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MixedUILibrariesSample-umbrella.h"; sourceTree = "<group>"; };
 		886CF6D1DD036A955DBC7F13A89F1FF4 /* Pods-MixedUILibrariesSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MixedUILibrariesSample-frameworks.sh"; sourceTree = "<group>"; };
 		889CEDE9D134DA649CD537F5333513B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89E15CD438CA7757DB7C78CC6E302E60 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
-		8A703ED3450FC77E8745439E146E41A5 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPagerView.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A7813AA84237B07AB47EF05D155C678 /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
-		8B1549F85B954B577B548A126971619C /* VegaScrollFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VegaScrollFlowLayout.modulemap; sourceTree = "<group>"; };
-		8FD6BFEAD0272FA50A15B5588E04273C /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		915F5855D47F7F2E80701C1A3F56F8C7 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		8BA9BA530C700D47D6C51C2A410250AA /* FlexibleSteppedProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FlexibleSteppedProgressBar.modulemap; sourceTree = "<group>"; };
+		8BEB042439DFCEF2F84B973C8D07AEDD /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		8F5C3809C687383667A7F6DEB1526963 /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
+		93371D54FF4E540848640A5A9E730870 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99B56F57D356A0ADFC2C91E60C5A6297 /* FSPBPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBPointExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBPointExtension.swift; sourceTree = "<group>"; };
+		979A290904F870BEF0C8E1859BF2DB4C /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
 		9A2E79218B30D5A8E921A8D795542F3D /* Pods-MixedUILibrariesSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MixedUILibrariesSample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9ABE0F4CC562EE57F5D6B3E872939C27 /* Corner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Corner.swift; path = Source/RoundedView/Corner.swift; sourceTree = "<group>"; };
-		9B09CEFBD30EF848645FE86F4323CB46 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
-		9B0C9B79C718CBDE089905E8612AB7AD /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
-		A0E2256EDEAF558AFA31171737CE70E7 /* FlexibleSteppedProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.xcconfig; sourceTree = "<group>"; };
-		A0FB2215D7FA59B1FDC2D5EAF55127D0 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		9BFF2F99DD544517BE29EEC9182D2B7F /* VegaScrollFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VegaScrollFlowLayout.modulemap; sourceTree = "<group>"; };
+		9C20CB8734DD18B0DC59329B4E3B4A6D /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+ParallaxHeader.swift"; path = "ParallaxHeader/UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
 		A62E191AECFF38738ED7B2158BE7A9C9 /* Pods-MixedUILibrariesSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MixedUILibrariesSample.debug.xcconfig"; sourceTree = "<group>"; };
+		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A8C8EACA844F3A2218F1FFA4302C80F3 /* FSPBTextLayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBTextLayerExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBTextLayerExtension.swift; sourceTree = "<group>"; };
+		A9F2E6F46BA5FF54754EFB2C549B612F /* FlexibleSteppedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBar.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBar.swift; sourceTree = "<group>"; };
+		AB6FA5996C22014B4DEB0F77B9B4E06D /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		AC719F704A3C1110C55285363A8F7F3C /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
 		AD8EBC51170D9419E1AE49B0022D2AF8 /* Pods-MixedUILibrariesSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MixedUILibrariesSample-resources.sh"; sourceTree = "<group>"; };
-		B0367046D287E1D344EE8DC499878F24 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B68ADB8F84F1BE51FA1DF15013EF4786 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
-		B6BD92A66B0302624E4813822C9769ED /* DeckTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeckTransition-umbrella.h"; sourceTree = "<group>"; };
-		B953939FAD9E156EBA802CBFADB15435 /* FlexibleSteppedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBar.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBar.swift; sourceTree = "<group>"; };
-		BBB822103A5893E6704552BE9E9E97F9 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FSPagerView.modulemap; sourceTree = "<group>"; };
-		BC691D8788F39A4526FED23C0DBCDA33 /* DeckTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeckTransition-prefix.pch"; sourceTree = "<group>"; };
-		BD6DABCDFC432B6B9064BCDFFEC4701E /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
-		BDE1F30D31E339D0FE778766604BCE84 /* VegaScrollFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-prefix.pch"; sourceTree = "<group>"; };
-		C214C0617DFE8818F33E95F3E113E426 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
-		C8FF0E09FCF3FD5B904EB9868710672A /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
-		CA0B61434A57AC4F903ABD73946E5006 /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
-		CA0EDC9A1F9FAB4239019C24A5EAE0EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAF2B4299C490B079E7F80A085BD5DE5 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
-		D52592AD7A09325F8E39005A8E3A9049 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DAAE6BDB41C24BD1BB90132223F0E4F5 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
-		DC700DB65595E435A2E0879E49CE477D /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		AE3901EA32C0F5E0223D07D415F7C630 /* VegaScrollFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VegaScrollFlowLayout.swift; path = VegaScroll/Classes/VegaScrollFlowLayout.swift; sourceTree = "<group>"; };
+		AE9F7294498C863A510598220477A986 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		B18A04258B594E2121C21A8F602AC1F3 /* AMScrollingNavbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMScrollingNavbar-umbrella.h"; sourceTree = "<group>"; };
+		B2061629BBAF2E669966A8807CBD35B8 /* ActiveLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActiveLabel-dummy.m"; sourceTree = "<group>"; };
+		B59FCAF20E9FC9C9E7478C11C3E2BECA /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		BB0DCA7470762A3048C6836F66AEE94F /* ActiveLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ActiveLabel.modulemap; sourceTree = "<group>"; };
+		BE9B44B83A59365EB3FCC9371B32EC3E /* ActiveType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveType.swift; path = ActiveLabel/ActiveType.swift; sourceTree = "<group>"; };
+		BF47662103F00A7B39E544C10A5A5F15 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPagerView.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C157724C539E507007FE2734FE3050ED /* ParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParallaxHeader.xcconfig; sourceTree = "<group>"; };
+		C2D1D613DE81CD976C7850151D708D04 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5384230708CD433B10206B9A1699619 /* ParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		C995C2DAC5DD3D194BC90698A031A902 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		CFE0EF3340B941DFE7BD0292633F1080 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		D3FCEEF6B981D65DA4905787B060C42D /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FEFF5E7F2C1DA14A9922F71EB1B146 /* VegaScrollFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		D588359AED3ECADE0B4FB202B9816813 /* FlexibleSteppedProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexibleSteppedProgressBar.framework; path = FlexibleSteppedProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88051D3088ACF408D56D52D5D3A60E1 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		D95886A5F40E45D5F2C47FA1582342BE /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
 		DC78A5D8BB83F7473AAF3B0E683D05E6 /* Pods-MixedUILibrariesSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MixedUILibrariesSample.release.xcconfig"; sourceTree = "<group>"; };
-		DCD73704EEB59A96FD6E7C67DCFB9B7B /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
-		DE1038266BAD2BB393E13241B2CDE5EF /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
-		E047FCB1F851430325CB57DF5BD2BA82 /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
-		E47615256FDA2B040250B5BBB9403351 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
-		E6B7D2076EBFA5C03347894FA7E1B665 /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
-		E908CD8D82FB5F21598E5E5DB40DA7FE /* VegaScrollFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VegaScrollFlowLayout-dummy.m"; sourceTree = "<group>"; };
-		E98AEE8B0A40AE899E67CFD757F00CC6 /* VegaScrollFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VegaScrollFlowLayout.framework; path = VegaScrollFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB610E5662674E563EB6E330099272D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFBE06BB550F1DD007EAADC169C25E4 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		E08797CF9C93BCA091DC7E85A9F74CF9 /* ScrollingNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingNavigationController.swift; path = Source/ScrollingNavigationController.swift; sourceTree = "<group>"; };
+		E0D17C60C94561E8618A8FB5A7757439 /* VegaScrollFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		E1F939A0F3317400BDDAF25EF724A722 /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
+		E40DC472EE7ED76E9D27AE85F82404F8 /* StringTrimExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringTrimExtension.swift; path = ActiveLabel/StringTrimExtension.swift; sourceTree = "<group>"; };
+		E4E8D093655759E358703D3A16A85BB4 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		E6CE956006713C46D1FC0E975BD4D579 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
 		ED256C05938E51999E6738D733E09843 /* Pods-MixedUILibrariesSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MixedUILibrariesSample-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED49CE14ABF756F711AF1F57275D8DCD /* CGRect+InitWithCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+InitWithCorner.swift"; path = "Source/RoundedView/CGRect+InitWithCorner.swift"; sourceTree = "<group>"; };
 		EE21542ECD6130DC1431D2E677BB217B /* Pods-MixedUILibrariesSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MixedUILibrariesSample.modulemap"; sourceTree = "<group>"; };
-		EFE26F2F2EEBF16DBCF52EF8700EBF25 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
-		F7FE34D79187E8A6E6BA4B788928A406 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
-		F9F720E7F49CA3DD588C87F645B47A5F /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
-		FAF72223F7716937DE3E0140640F8275 /* DeckTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckTransitioningDelegate.swift; path = Source/DeckTransitioningDelegate.swift; sourceTree = "<group>"; };
-		FC44317FF4FA38377527ABD065E6BDF4 /* DeckTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeckTransition.framework; path = DeckTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF0E40ED63FE5CBD979753CF84B7D49B /* DeckPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeckPresentationController.swift; path = Source/DeckPresentationController.swift; sourceTree = "<group>"; };
-		FFADED091B4BE0C60813F0F7ADAF40B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF737BCF11E2C040D3CEA093AD48014E /* AMScrollingNavbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMScrollingNavbar-dummy.m"; sourceTree = "<group>"; };
+		EFD4DABDF184D7E6E92A5B9EF47C4FC0 /* Pods_MixedUILibrariesSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MixedUILibrariesSample.framework; path = "Pods-MixedUILibrariesSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0452476919E8F3CFFC526182900CDEE /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		FA2F2FF60BDB53A717D74DF21A930A0D /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		FA3551853D15E4B80E88A36149C1ADB6 /* AMScrollingNavbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AMScrollingNavbar.modulemap; sourceTree = "<group>"; };
+		FD0132A4D5F1DA05496AD2873A50A16D /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		012A572DC468B2439D79103A8587CD41 /* Frameworks */ = {
+		23E1D2C8911A1F4127AF93A478D985B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36EE12CB455ACF1FD3C92E8DD64F78A9 /* Foundation.framework in Frameworks */,
-				16ED39F2E1F2201AF2B28557D19D3B6F /* UIKit.framework in Frameworks */,
+				A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C9AD102DED55B159A49F3CD179369F6 /* Frameworks */ = {
+		36A14AD6AD7B078BDFAB7557C65A2F47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2000BB8BFA947AB4E0ED0A4767FA0A9B /* Foundation.framework in Frameworks */,
-				35A4093787659528EA71316206879AF3 /* UIKit.framework in Frameworks */,
+				06D57843FA94742096D0970E60ACE215 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A3697D21E115AE4C80699481969383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488FE105FB5E06CBCD83B1A82771FE12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +315,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6384E4C1DBDFE6DB82E1EAD08B3F044A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC2CACA22AE100EB261D377EC6FBE3C /* CoreText.framework in Frameworks */,
+				C4EDDFD00880AD17F1BB7D66948F1D21 /* Foundation.framework in Frameworks */,
+				684E126B8E890761BBB1A4EB590EA1F3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E070AB187E415CF4D7EB6E528000CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,105 +334,191 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D99DC446B64B77B4B64336630C17894C /* Frameworks */ = {
+		7FC7DA4455DE724CEE912A07B7489AE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE5470ABD037E64652E37F1BCB266F2C /* Foundation.framework in Frameworks */,
+				DF166A82DF58512DB0908330B037E29E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8765D061C388F4C910611D7214AE893 /* Frameworks */ = {
+		989ACD99D0526D0E7B459C49985DD00A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2343A28E83028DD20164033969A52032 /* Foundation.framework in Frameworks */,
+				6CE2536CC728DAE16622A4B012D8B6F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F1BED328A012B89118F91418DA6F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D1D0983AB9AE45FBD6EC14E233EBDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E54942A2F6AE6BC8FF8B5031C56AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DCF7DD016107A3CE2866D8A0B635203 /* FlexibleSteppedProgressBar */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B953939FAD9E156EBA802CBFADB15435 /* FlexibleSteppedProgressBar.swift */,
-				5EF745F6C271F77D96B7F36B3FCC60DC /* FlexibleSteppedProgressBarTextLocation.swift */,
-				99B56F57D356A0ADFC2C91E60C5A6297 /* FSPBPointExtension.swift */,
-				4A44359BFE90DB52239487F5433CAE45 /* FSPBTextLayerExtension.swift */,
-				AA07C2553F5A32BD88AEA832924CB8D6 /* Support Files */,
-			);
-			name = FlexibleSteppedProgressBar;
-			path = FlexibleSteppedProgressBar;
-			sourceTree = "<group>";
-		};
-		29EC2C7F4D28B1BFF148C48AE9610732 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC44317FF4FA38377527ABD065E6BDF4 /* DeckTransition.framework */,
-				390D57C658842525492D190DF933EFED /* FlexibleSteppedProgressBar.framework */,
-				8A703ED3450FC77E8745439E146E41A5 /* FSPagerView.framework */,
-				8FD6BFEAD0272FA50A15B5588E04273C /* Hero.framework */,
-				6C208D820F78ABF2F65ACD240202A44B /* Pods_MixedUILibrariesSample.framework */,
-				E98AEE8B0A40AE899E67CFD757F00CC6 /* VegaScrollFlowLayout.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				FF1CA95E532A8F990E19506982FA04EE /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+		40129CA297794C9F9B491B7E9C5C2B1A /* FontAwesome.swift */ = {
 			isa = PBXGroup;
 			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+				AB6FA5996C22014B4DEB0F77B9B4E06D /* Enum.swift */,
+				331DC3AC6598C94DD0BC504996A5CA7D /* FontAwesome.swift */,
+				FD0132A4D5F1DA05496AD2873A50A16D /* FontAwesomeBarButtonItem.swift */,
+				82D8C0CD29835C8F18EE6806BE7ED4E4 /* FontAwesomeImageRepresentable.swift */,
+				AC719F704A3C1110C55285363A8F7F3C /* FontAwesomeImageView.swift */,
+				8F5C3809C687383667A7F6DEB1526963 /* FontAwesomeSegmentedControl.swift */,
+				D95886A5F40E45D5F2C47FA1582342BE /* FontAwesomeStateRequirement.swift */,
+				797686C9C2CEBF1331A0C2B2B4A8D5F9 /* FontAwesomeTabBarItem.swift */,
+				17934A966F3774852B3DE3970A8560B1 /* FontAwesomeTextRepresentable.swift */,
+				B59FCAF20E9FC9C9E7478C11C3E2BECA /* FontAwesomeView.swift */,
+				4A449EE0A457F11C7A8A86FB8CBD58B9 /* Resources */,
+				7D549D06B17213E4B1589EA6C572485F /* Support Files */,
 			);
-			name = iOS;
+			name = FontAwesome.swift;
+			path = FontAwesome.swift;
 			sourceTree = "<group>";
 		};
-		74510F833327C8EE6BDF423C163481FA /* Support Files */ = {
+		499B1D4E78BE7C8BF836A97C41452864 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F23392079A6677EDF9BA7A3B87AA9B5 /* DeckTransition.modulemap */,
-				836543687F9DE4A1091789875EA58668 /* DeckTransition.xcconfig */,
-				25B894A3E3BB82A09D1D41794A6EB164 /* DeckTransition-dummy.m */,
-				BC691D8788F39A4526FED23C0DBCDA33 /* DeckTransition-prefix.pch */,
-				B6BD92A66B0302624E4813822C9769ED /* DeckTransition-umbrella.h */,
-				85F62C7C2036CE925A13772686E4AB4B /* Info.plist */,
+				284056346B68206C9E2A4F3D5F7A9AE4 /* Info.plist */,
+				9BFF2F99DD544517BE29EEC9182D2B7F /* VegaScrollFlowLayout.modulemap */,
+				6E1791ED3D41A246716AADD6005491E2 /* VegaScrollFlowLayout.xcconfig */,
+				52DBD21AE937309E990653242CE4787A /* VegaScrollFlowLayout-dummy.m */,
+				E0D17C60C94561E8618A8FB5A7757439 /* VegaScrollFlowLayout-prefix.pch */,
+				D4FEFF5E7F2C1DA14A9922F71EB1B146 /* VegaScrollFlowLayout-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DeckTransition";
+			path = "../Target Support Files/VegaScrollFlowLayout";
+			sourceTree = "<group>";
+		};
+		4A449EE0A457F11C7A8A86FB8CBD58B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				631A060139DA800B7CD17A9D4C7C2427 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		62D2AB163CD17A09D644BA76F14BE950 /* AMScrollingNavbar */ = {
+			isa = PBXGroup;
+			children = (
+				4473F2C758632AE825BF34804A9E995F /* ScrollingNavbar+Sizes.swift */,
+				E08797CF9C93BCA091DC7E85A9F74CF9 /* ScrollingNavigationController.swift */,
+				7F5F5E23BCCF9BE7E67969CEB3794F10 /* ScrollingNavigationViewController.swift */,
+				92FEA5877F40526A4C653A7CC48326FB /* Support Files */,
+			);
+			name = AMScrollingNavbar;
+			path = AMScrollingNavbar;
+			sourceTree = "<group>";
+		};
+		7D549D06B17213E4B1589EA6C572485F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DDA1178470159AC75FBFEDF3583BBD /* FontAwesome.swift.modulemap */,
+				3E81F935BC03C0C7483869ECE7C50901 /* FontAwesome.swift.xcconfig */,
+				D88051D3088ACF408D56D52D5D3A60E1 /* FontAwesome.swift-dummy.m */,
+				412AC08F1AEE1C6CCE00A9D466FBC924 /* FontAwesome.swift-prefix.pch */,
+				369BBB597ECDDA12B5042EA8B61C744F /* FontAwesome.swift-umbrella.h */,
+				0ED53933247C323B4F6AD1EBCFC311DD /* Info.plist */,
+				6A75F5969954D4174C35B78EC99C834E /* ResourceBundle-FontAwesome.swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				E748AA7CE4BB1C86FA59F1CCEAF4D9D6 /* Pods */,
-				29EC2C7F4D28B1BFF148C48AE9610732 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				FD883A54BF894882C6DEE23E74C34D67 /* Pods */,
+				FE3A366CE47DD2D23F4CA6AD328AB205 /* Products */,
 				F4EA23AE91740932B2259E1086DEA144 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7F7456EAAE4A5F7D990590C064D70DDD /* Support Files */ = {
+		7F7C7361779DDB9DBBA7005AEBA11F92 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4539329D34634092E5470EA0405D30D4 /* Hero.modulemap */,
-				C214C0617DFE8818F33E95F3E113E426 /* Hero.xcconfig */,
-				F7FE34D79187E8A6E6BA4B788928A406 /* Hero-dummy.m */,
-				6A77C6A951BA844C5315F18A4C10C701 /* Hero-prefix.pch */,
-				441E0B08436F9F376EF32A4DE93A93A9 /* Hero-umbrella.h */,
-				CA0EDC9A1F9FAB4239019C24A5EAE0EA /* Info.plist */,
+				E4E8D093655759E358703D3A16A85BB4 /* Cosmos.modulemap */,
+				6826E503D0A490BCCFDFDE0CFFC14F6B /* Cosmos.xcconfig */,
+				02D3263065874CB2CBD9363D25A9650A /* Cosmos-dummy.m */,
+				AE9F7294498C863A510598220477A986 /* Cosmos-prefix.pch */,
+				4125226E1FF95A00335600833E961706 /* Cosmos-umbrella.h */,
+				19EA6ADABBC13B541C2AD19B34597D04 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Hero";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		858432BDB3A3E6D6ADFE9AAD145EF09D /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				C995C2DAC5DD3D194BC90698A031A902 /* CosmosAccessibility.swift */,
+				5B4F2A5D9BB30B59943F16F21975F946 /* CosmosDefaultSettings.swift */,
+				8BEB042439DFCEF2F84B973C8D07AEDD /* CosmosLayerHelper.swift */,
+				5F617269D6D7BF12217AEFA053F39E2A /* CosmosLayers.swift */,
+				1EA46D7921075164DDF241D7D397FF31 /* CosmosLocalizedRating.swift */,
+				12D66A9AC92AC4C57B90735B702878F9 /* CosmosRating.swift */,
+				7034F51C3C9B44CD158D82ECE22127DC /* CosmosSettings.swift */,
+				41DD3B561169FC026588DD7A6EE84B8F /* CosmosSize.swift */,
+				93371D54FF4E540848640A5A9E730870 /* CosmosText.swift */,
+				E6CE956006713C46D1FC0E975BD4D579 /* CosmosTouch.swift */,
+				FA2F2FF60BDB53A717D74DF21A930A0D /* CosmosTouchTarget.swift */,
+				449615ECBD8B9AB171DD9B5BA9EABA5A /* CosmosView.swift */,
+				10CFC7E441C849B830B8A659D7427B02 /* RightToLeft.swift */,
+				515B272A7E7527511D839EC82C681796 /* StarFillMode.swift */,
+				CFE0EF3340B941DFE7BD0292633F1080 /* StarLayer.swift */,
+				7F7C7361779DDB9DBBA7005AEBA11F92 /* Support Files */,
+			);
+			name = Cosmos;
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		8B3133150F24378171F5D04AE92E0DD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA9BA530C700D47D6C51C2A410250AA /* FlexibleSteppedProgressBar.modulemap */,
+				80FCF28D7C1048033E12AC8C99920AD4 /* FlexibleSteppedProgressBar.xcconfig */,
+				00AD0EF7A3375970173D8F0DB70478D0 /* FlexibleSteppedProgressBar-dummy.m */,
+				02FEE086BDF7DBEA2794FE6A13053C6C /* FlexibleSteppedProgressBar-prefix.pch */,
+				4B327A0CEBA9B1CC8488923B02AE3486 /* FlexibleSteppedProgressBar-umbrella.h */,
+				78165121BA837802B6FEA9B6517F7054 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlexibleSteppedProgressBar";
+			sourceTree = "<group>";
+		};
+		8B71F46024CA179C2EF9BD3A9F9CC096 /* FlexibleSteppedProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				A9F2E6F46BA5FF54754EFB2C549B612F /* FlexibleSteppedProgressBar.swift */,
+				403CF5B768899E096C7EC6EA0E746318 /* FlexibleSteppedProgressBarTextLocation.swift */,
+				2FB4EF9CD1FE5B2583783DF90F3047AB /* FSPBPointExtension.swift */,
+				A8C8EACA844F3A2218F1FFA4302C80F3 /* FSPBTextLayerExtension.swift */,
+				8B3133150F24378171F5D04AE92E0DD4 /* Support Files */,
+			);
+			name = FlexibleSteppedProgressBar;
+			path = FlexibleSteppedProgressBar;
 			sourceTree = "<group>";
 		};
 		8F6EC08918875162AB78ED08A7946272 /* Pods-MixedUILibrariesSample */ = {
@@ -415,149 +539,112 @@
 			path = "Target Support Files/Pods-MixedUILibrariesSample";
 			sourceTree = "<group>";
 		};
-		934C88E66CDEC6DF5F32D5E15E3BBFD0 /* DeckTransition */ = {
+		9174DD28D08E8FA249B3E8C5D15D5FC5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				37647AF276D6E04CB8E3E3D6D6B3297A /* CGRect+Corners.swift */,
-				ED49CE14ABF756F711AF1F57275D8DCD /* CGRect+InitWithCorner.swift */,
-				39F00352DF8AA8C86EC7943CA41F0917 /* Constants.swift */,
-				9ABE0F4CC562EE57F5D6B3E872939C27 /* Corner.swift */,
-				4CADED5765CE447900109C5883108991 /* CornerView.swift */,
-				1F3AD32834BA4BA41E03494DF39FCECC /* DeckDismissingAnimationController.swift */,
-				FF0E40ED63FE5CBD979753CF84B7D49B /* DeckPresentationController.swift */,
-				6573526BCD939423C182E5214557AC8F /* DeckPresentingAnimationController.swift */,
-				355CE471FC4F7D883C06EF65503764E2 /* DeckSegue.swift */,
-				5C8C2F2783E22AC66477135A0BD05CD7 /* DeckTransition.h */,
-				FAF72223F7716937DE3E0140640F8275 /* DeckTransitioningDelegate.swift */,
-				4F188B81716F44EF0CB4D8EC6B99777D /* ManualLayout.swift */,
-				8651146B8F37CA29EE6FC15204040863 /* RoundedView.swift */,
-				74510F833327C8EE6BDF423C163481FA /* Support Files */,
-			);
-			name = DeckTransition;
-			path = DeckTransition;
-			sourceTree = "<group>";
-		};
-		AA07C2553F5A32BD88AEA832924CB8D6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				724AE95191FE8A31395206E57D6F770E /* FlexibleSteppedProgressBar.modulemap */,
-				A0E2256EDEAF558AFA31171737CE70E7 /* FlexibleSteppedProgressBar.xcconfig */,
-				28D6A6E63A9393E8D9D5FF83508B570F /* FlexibleSteppedProgressBar-dummy.m */,
-				5B5C622A84E89EC230712C7F721D8BED /* FlexibleSteppedProgressBar-prefix.pch */,
-				6C5BC81CB02C999326E8643D5420B845 /* FlexibleSteppedProgressBar-umbrella.h */,
-				FFADED091B4BE0C60813F0F7ADAF40B8 /* Info.plist */,
+				BB0DCA7470762A3048C6836F66AEE94F /* ActiveLabel.modulemap */,
+				027B66ECA6B491BE8423AE5B9D49D738 /* ActiveLabel.xcconfig */,
+				B2061629BBAF2E669966A8807CBD35B8 /* ActiveLabel-dummy.m */,
+				809F8ACA3193E6EA1B82C7C201F6B111 /* ActiveLabel-prefix.pch */,
+				1CBD6F551C71E9E69521B4F080FEDA17 /* ActiveLabel-umbrella.h */,
+				103267588048AC03B258551A424863AC /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FlexibleSteppedProgressBar";
+			path = "../Target Support Files/ActiveLabel";
 			sourceTree = "<group>";
 		};
-		B1F7F1B95C99FE8816BBEC74F812FB19 /* Support Files */ = {
+		92FEA5877F40526A4C653A7CC48326FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				657CEC6B4580F56CB22E98710A4C298E /* Info.plist */,
-				8B1549F85B954B577B548A126971619C /* VegaScrollFlowLayout.modulemap */,
-				3C2679A80C5293E417CB24F82DF18C36 /* VegaScrollFlowLayout.xcconfig */,
-				E908CD8D82FB5F21598E5E5DB40DA7FE /* VegaScrollFlowLayout-dummy.m */,
-				BDE1F30D31E339D0FE778766604BCE84 /* VegaScrollFlowLayout-prefix.pch */,
-				4BFBE2BE4E06BD133FEE133AAD7060E0 /* VegaScrollFlowLayout-umbrella.h */,
+				FA3551853D15E4B80E88A36149C1ADB6 /* AMScrollingNavbar.modulemap */,
+				0C6A8E91F10878CF5084F20FC4EA3D2B /* AMScrollingNavbar.xcconfig */,
+				EF737BCF11E2C040D3CEA093AD48014E /* AMScrollingNavbar-dummy.m */,
+				080C5D9C8CACFA54E6371C1A472F4485 /* AMScrollingNavbar-prefix.pch */,
+				B18A04258B594E2121C21A8F602AC1F3 /* AMScrollingNavbar-umbrella.h */,
+				DEB610E5662674E563EB6E330099272D /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/VegaScrollFlowLayout";
+			path = "../Target Support Files/AMScrollingNavbar";
 			sourceTree = "<group>";
 		};
-		C80F89D64DA354509558DC8DA1E22D8F /* Support Files */ = {
+		A67FF070A227DBD5895317BE3DDEECFE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBB822103A5893E6704552BE9E9E97F9 /* FSPagerView.modulemap */,
-				32E88826605F1381FF1EC0B2CE3B90EA /* FSPagerView.xcconfig */,
-				1EED77A3095C2164B6425141669EB0D3 /* FSPagerView-dummy.m */,
-				40F3C9DF05AD1471758BC67A469C89CD /* FSPagerView-prefix.pch */,
-				8A7813AA84237B07AB47EF05D155C678 /* FSPagerView-umbrella.h */,
-				17C292EE3A64ADED99506BA4E6B3E64C /* Info.plist */,
+				120B22FE6471654A696C1421BC8407A4 /* Info.plist */,
+				3D2D021E6B0FCFDD80AF739D94920640 /* ParallaxHeader.modulemap */,
+				C157724C539E507007FE2734FE3050ED /* ParallaxHeader.xcconfig */,
+				7D866B3E30D2485B61FB2E8B8B9824A9 /* ParallaxHeader-dummy.m */,
+				C5384230708CD433B10206B9A1699619 /* ParallaxHeader-prefix.pch */,
+				0C5599618A4125C3F2BC68C5408A8D55 /* ParallaxHeader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ParallaxHeader";
+			sourceTree = "<group>";
+		};
+		B6356C64B3D5A6842BF32EEDF1D7D2C3 /* VegaScrollFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AE3901EA32C0F5E0223D07D415F7C630 /* VegaScrollFlowLayout.swift */,
+				499B1D4E78BE7C8BF836A97C41452864 /* Support Files */,
+			);
+			name = VegaScrollFlowLayout;
+			path = VegaScrollFlowLayout;
+			sourceTree = "<group>";
+		};
+		B7C5CB018CA4B3CBF4718A5C9CDFAC77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D493EA57B597DF75AF5A9E681503E /* FSPagerView.modulemap */,
+				E1F939A0F3317400BDDAF25EF724A722 /* FSPagerView.xcconfig */,
+				7E4EE4C8461CE569721DB78493A9FFD7 /* FSPagerView-dummy.m */,
+				18FD3F3CB82954B199154D9691CB0F22 /* FSPagerView-prefix.pch */,
+				4FE27922FA6D31A894C9BFAE220CA551 /* FSPagerView-umbrella.h */,
+				14D79E8369EA3D35A6DF6B338A0CE1C4 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FSPagerView";
 			sourceTree = "<group>";
 		};
-		D52A60A8509145136F5E07B5DCEE51C3 /* FSPagerView */ = {
+		BB7FDD9456A809DD628DE83795502F46 /* ActiveLabel */ = {
 			isa = PBXGroup;
 			children = (
-				112AF351969D1D1C1F0EFACC8C595671 /* FSPageControl.swift */,
-				458B86FF4C1A5CD3E70AA8DC4A33582F /* FSPagerCollectionView.swift */,
-				703A92F218983F8A0DB31C60D9C32BDC /* FSPagerView.swift */,
-				5103872465CB55136CFC26ECFD6D8EED /* FSPagerViewCell.swift */,
-				482E0F37A64D02126E6D10BA50D8F752 /* FSPagerViewLayoutAttributes.swift */,
-				DAAE6BDB41C24BD1BB90132223F0E4F5 /* FSPageViewLayout.swift */,
-				B0367046D287E1D344EE8DC499878F24 /* FSPageViewTransformer.swift */,
-				C80F89D64DA354509558DC8DA1E22D8F /* Support Files */,
+				4524AF2CEEC93B8F49F883C85B507127 /* ActiveBuilder.swift */,
+				4028125B84D657E18B20FBD0DC0C7955 /* ActiveLabel.swift */,
+				BE9B44B83A59365EB3FCC9371B32EC3E /* ActiveType.swift */,
+				54C95D8C1C0FA2FF0B32ACB1B081EA5D /* RegexParser.swift */,
+				E40DC472EE7ED76E9D27AE85F82404F8 /* StringTrimExtension.swift */,
+				9174DD28D08E8FA249B3E8C5D15D5FC5 /* Support Files */,
+			);
+			name = ActiveLabel;
+			path = ActiveLabel;
+			sourceTree = "<group>";
+		};
+		C6C81A240C4266CCF27D86A7FA02D47E /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				530C4C2C0BD5EFFD93443B1A7785AAB8 /* ParallaxHeader.swift */,
+				0E9CB8F93FD4B7FB1127208A76D6DBF1 /* ParallaxHeaderMode.swift */,
+				9C20CB8734DD18B0DC59329B4E3B4A6D /* UIScrollView+ParallaxHeader.swift */,
+				A67FF070A227DBD5895317BE3DDEECFE /* Support Files */,
+			);
+			name = ParallaxHeader;
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		DCB35B0287CBEEE8A34AC2B46EE6F2C6 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				6C78E7DAD668DFD7E3D312097C9BF864 /* FSPageControl.swift */,
+				F0452476919E8F3CFFC526182900CDEE /* FSPagerCollectionView.swift */,
+				40C118A939D9EDC7C66F8C6501FF5830 /* FSPagerView.swift */,
+				315A2D85AED626DF83F68EAFD37CA687 /* FSPagerViewCell.swift */,
+				979A290904F870BEF0C8E1859BF2DB4C /* FSPagerViewLayoutAttributes.swift */,
+				0A8B7D9D9E50F28314854FF5F5124556 /* FSPageViewLayout.swift */,
+				DEFBE06BB550F1DD007EAADC169C25E4 /* FSPageViewTransformer.swift */,
+				B7C5CB018CA4B3CBF4718A5C9CDFAC77 /* Support Files */,
 			);
 			name = FSPagerView;
 			path = FSPagerView;
-			sourceTree = "<group>";
-		};
-		E748AA7CE4BB1C86FA59F1CCEAF4D9D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				934C88E66CDEC6DF5F32D5E15E3BBFD0 /* DeckTransition */,
-				1DCF7DD016107A3CE2866D8A0B635203 /* FlexibleSteppedProgressBar */,
-				D52A60A8509145136F5E07B5DCEE51C3 /* FSPagerView */,
-				F18BC24759A1A7A218D0CF44B70BE2F7 /* Hero */,
-				F57F8B0D4762328FBE4D7978E26B2816 /* VegaScrollFlowLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F18BC24759A1A7A218D0CF44B70BE2F7 /* Hero */ = {
-			isa = PBXGroup;
-			children = (
-				EFE26F2F2EEBF16DBCF52EF8700EBF25 /* Array+HeroModifier.swift */,
-				1DE87B64F87FDAD58A68E00B5C9B3D01 /* BasePreprocessor.swift */,
-				01E4C136951D05B2D0EE0C2086D5BF26 /* CALayer+Hero.swift */,
-				57DB3F732A17EE02F49B4666E0101AB4 /* CAMediaTimingFunction+Hero.swift */,
-				27813C9C300691AFCFAB00D30C9504FE /* CascadePreprocessor.swift */,
-				E47615256FDA2B040250B5BBB9403351 /* CG+Hero.swift */,
-				D52592AD7A09325F8E39005A8E3A9049 /* ConditionalPreprocessor.swift */,
-				CA0B61434A57AC4F903ABD73946E5006 /* DefaultAnimationPreprocessor.swift */,
-				7372B31329C405F8E74CBE5965BD03A6 /* DispatchQueue+Hero.swift */,
-				689333D6E04776EC2332B51B55A4A79C /* HeroAnimatorViewContext.swift */,
-				DCD73704EEB59A96FD6E7C67DCFB9B7B /* HeroContext.swift */,
-				B68ADB8F84F1BE51FA1DF15013EF4786 /* HeroCoreAnimationViewContext.swift */,
-				021EFA0FF1CEE6C39378C23C111DE5F5 /* HeroDebugPlugin.swift */,
-				9B0C9B79C718CBDE089905E8612AB7AD /* HeroDebugView.swift */,
-				9B09CEFBD30EF848645FE86F4323CB46 /* HeroDefaultAnimator.swift */,
-				17573EE8CCCFA11073ACDAF00FD35F68 /* HeroModifier.swift */,
-				4BDFF282A925379055855100B5727DA1 /* HeroModifier+HeroStringConvertible.swift */,
-				E6B7D2076EBFA5C03347894FA7E1B665 /* HeroPlugin.swift */,
-				A0FB2215D7FA59B1FDC2D5EAF55127D0 /* HeroProgressRunner.swift */,
-				915F5855D47F7F2E80701C1A3F56F8C7 /* HeroStringConvertible.swift */,
-				F9F720E7F49CA3DD588C87F645B47A5F /* HeroTargetState.swift */,
-				05991320545A755EFD69ABA766CFE150 /* HeroTransition.swift */,
-				DC700DB65595E435A2E0879E49CE477D /* HeroTransition+Animate.swift */,
-				4E56152ACC8CC37E42E1A53B09E75BCA /* HeroTransition+Complete.swift */,
-				246FC4F32E669700EB57942F47EE0FED /* HeroTransition+CustomTransition.swift */,
-				5D444757D8BB3964EB06E3A85E2E05DC /* HeroTransition+Interactive.swift */,
-				E047FCB1F851430325CB57DF5BD2BA82 /* HeroTransition+Start.swift */,
-				57FD372AA8A2762C70EE33561CE3B460 /* HeroTransition+UINavigationControllerDelegate.swift */,
-				1AC06708F877F5AB1F0B2B405C77D18B /* HeroTransition+UITabBarControllerDelegate.swift */,
-				652C674B0606F71DA77357DC6280E72A /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
-				0B7D9DE31E602FAAB02FB20CF6EB411A /* HeroTransitionState.swift */,
-				3686C0C238499F8B03A83514C2F9983F /* HeroTypes.swift */,
-				37A2D889435F8BC0E3D51D2B22B123C4 /* HeroViewControllerDelegate.swift */,
-				DE1038266BAD2BB393E13241B2CDE5EF /* HeroViewPropertyViewContext.swift */,
-				89E15CD438CA7757DB7C78CC6E302E60 /* IgnoreSubviewModifiersPreprocessor.swift */,
-				C8FF0E09FCF3FD5B904EB9868710672A /* Lexer.swift */,
-				2B7A070018C55AAC8E3F6E95178FBD13 /* MatchPreprocessor.swift */,
-				8511CE2E90BAE8108720FB45023FD1A2 /* Nodes.swift */,
-				5D9AB74FFA9350250D961374CB95AA87 /* Parser.swift */,
-				80D9C10101855274C1782CEA44D27D95 /* Regex.swift */,
-				BD6DABCDFC432B6B9064BCDFFEC4701E /* SourcePreprocessor.swift */,
-				CAF2B4299C490B079E7F80A085BD5DE5 /* UIKit+Hero.swift */,
-				591F7D81CA0C70C710577708172AE871 /* UIView+Hero.swift */,
-				58C6C114001559B9371824274D8E7F4D /* UIViewController+Hero.swift */,
-				7F7456EAAE4A5F7D990590C064D70DDD /* Support Files */,
-			);
-			name = Hero;
-			path = Hero;
 			sourceTree = "<group>";
 		};
 		F4EA23AE91740932B2259E1086DEA144 /* Targets Support Files */ = {
@@ -568,32 +655,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F57F8B0D4762328FBE4D7978E26B2816 /* VegaScrollFlowLayout */ = {
+		FD883A54BF894882C6DEE23E74C34D67 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3FBF544D7F2AA56945AA830A0366342C /* VegaScrollFlowLayout.swift */,
-				B1F7F1B95C99FE8816BBEC74F812FB19 /* Support Files */,
+				BB7FDD9456A809DD628DE83795502F46 /* ActiveLabel */,
+				62D2AB163CD17A09D644BA76F14BE950 /* AMScrollingNavbar */,
+				858432BDB3A3E6D6ADFE9AAD145EF09D /* Cosmos */,
+				8B71F46024CA179C2EF9BD3A9F9CC096 /* FlexibleSteppedProgressBar */,
+				40129CA297794C9F9B491B7E9C5C2B1A /* FontAwesome.swift */,
+				DCB35B0287CBEEE8A34AC2B46EE6F2C6 /* FSPagerView */,
+				C6C81A240C4266CCF27D86A7FA02D47E /* ParallaxHeader */,
+				B6356C64B3D5A6842BF32EEDF1D7D2C3 /* VegaScrollFlowLayout */,
 			);
-			name = VegaScrollFlowLayout;
-			path = VegaScrollFlowLayout;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE3A366CE47DD2D23F4CA6AD328AB205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD31068148523F76C8260058F2E49AB /* ActiveLabel.framework */,
+				01D98B426AAE29BD6E4A1305A4DB7CEF /* AMScrollingNavbar.framework */,
+				C2D1D613DE81CD976C7850151D708D04 /* Cosmos.framework */,
+				D588359AED3ECADE0B4FB202B9816813 /* FlexibleSteppedProgressBar.framework */,
+				D3FCEEF6B981D65DA4905787B060C42D /* FontAwesome.swift.bundle */,
+				865A1FEFD4325D30AEA06E4D96CB71D8 /* FontAwesome_swift.framework */,
+				BF47662103F00A7B39E544C10A5A5F15 /* FSPagerView.framework */,
+				813C8771BA2C470D286C95FBDCD66D4A /* ParallaxHeader.framework */,
+				EFD4DABDF184D7E6E92A5B9EF47C4FC0 /* Pods_MixedUILibrariesSample.framework */,
+				232427D59189ADAC21292A31E871B698 /* VegaScrollFlowLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1CA95E532A8F990E19506982FA04EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */,
+				A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */,
+				27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		102655C6093336553C25EEF0DEDE4511 /* Headers */ = {
+		25E0772F87878D34BE9C9F522910F6B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA5B8FA8A9DC1D3A202FE5CCD9DBD458 /* Pods-MixedUILibrariesSample-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E26EB2499C05726BB16FD97C70A4481 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B58AFF691857FEDC9B81A0B5C2667664 /* VegaScrollFlowLayout-umbrella.h in Headers */,
+				24065029085002EAC70A3422A7D39EC1 /* FontAwesome.swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,20 +716,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C1958A3CC8FBDEDEFA3B20E11989D66 /* Headers */ = {
+		43D7744EB521857928F11EE8DDC74183 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A33055BEFE64D3D97776781526F8BE83 /* DeckTransition-umbrella.h in Headers */,
-				C0E6F41B7C62B639A9E71E1A0B43B228 /* DeckTransition.h in Headers */,
+				4B6EDD191FC60FE07099E49AF161EB91 /* ActiveLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDB4924BB153B31FD39A4B2A09483F6D /* Headers */ = {
+		5AACE13CAF015976B6B8D514CD5FBF29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131BD954572AE0F9B1EF5F12B04BD724 /* Hero-umbrella.h in Headers */,
+				10CA952B7CFB5D09A9CC2FDF651EC409 /* Pods-MixedUILibrariesSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BA818CC923EDA2241ECC0170B392AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D627716E176C277319B4F8FCC80593C /* VegaScrollFlowLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA605FFF53AE8E277089DB533EFE0EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B27FC9177EE975C7A01F452ECBB6DC /* ParallaxHeader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39AD5A1075C68996806AE28E03E308D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97ED6F1AA5A07ACEDF982802FEEF45A1 /* AMScrollingNavbar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F72A88918035AFA923560A84B87C61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5E91A47C1BF6869DF17747D61C2FF1 /* Cosmos-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,39 +775,56 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1C6B9453542F050BBBD118EA2D57B98C /* DeckTransition */ = {
+		0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE1217ED7FD19ECE7080AF036A8D5F25 /* Build configuration list for PBXNativeTarget "DeckTransition" */;
+			buildConfigurationList = 3595877C8D4131A0FCEF793FFA5F800C /* Build configuration list for PBXNativeTarget "ParallaxHeader" */;
 			buildPhases = (
-				94E36DBAF82E76F0B0630B7B5F3BD05D /* Sources */,
-				3C9AD102DED55B159A49F3CD179369F6 /* Frameworks */,
-				8C1958A3CC8FBDEDEFA3B20E11989D66 /* Headers */,
+				6F10C260EF59BE3C7FE5AFEC986E0DF9 /* Sources */,
+				36A14AD6AD7B078BDFAB7557C65A2F47 /* Frameworks */,
+				9FA605FFF53AE8E277089DB533EFE0EA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DeckTransition;
-			productName = DeckTransition;
-			productReference = FC44317FF4FA38377527ABD065E6BDF4 /* DeckTransition.framework */;
+			name = ParallaxHeader;
+			productName = ParallaxHeader;
+			productReference = 813C8771BA2C470D286C95FBDCD66D4A /* ParallaxHeader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		83C26A1A65032AB1408D01604F119111 /* Hero */ = {
+		4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A08B0DE972D9D1786334E52667434BF7 /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildConfigurationList = 38CA41A3E689F135BAEECE91B63D9EA0 /* Build configuration list for PBXNativeTarget "Cosmos" */;
 			buildPhases = (
-				260E20B24F5D363B22B50076BFA4CBD5 /* Sources */,
-				012A572DC468B2439D79103A8587CD41 /* Frameworks */,
-				BDB4924BB153B31FD39A4B2A09483F6D /* Headers */,
+				64A8AA816E108F31E7CEE1A683E42839 /* Sources */,
+				23E1D2C8911A1F4127AF93A478D985B5 /* Frameworks */,
+				B7F72A88918035AFA923560A84B87C61 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Hero;
-			productName = Hero;
-			productReference = 8FD6BFEAD0272FA50A15B5588E04273C /* Hero.framework */;
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = C2D1D613DE81CD976C7850151D708D04 /* Cosmos.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		6991F49AED797519343B1F4591001691 /* FontAwesome.swift-FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91ACF4D4E342DEB04B7C57FA8EA6CC1 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
+			buildPhases = (
+				EFDD05B792A1A2DB330508032AD5AC07 /* Sources */,
+				D4E54942A2F6AE6BC8FF8B5031C56AFF /* Frameworks */,
+				F276D87ECE642BAF9150EB9FD4E7269A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontAwesome.swift-FontAwesome.swift";
+			productName = "FontAwesome.swift-FontAwesome.swift";
+			productReference = D3FCEEF6B981D65DA4905787B060C42D /* FontAwesome.swift.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		878CFD6608614D017343D238F44ED042 /* FlexibleSteppedProgressBar */ = {
 			isa = PBXNativeTarget;
@@ -681,38 +840,75 @@
 			);
 			name = FlexibleSteppedProgressBar;
 			productName = FlexibleSteppedProgressBar;
-			productReference = 390D57C658842525492D190DF933EFED /* FlexibleSteppedProgressBar.framework */;
+			productReference = D588359AED3ECADE0B4FB202B9816813 /* FlexibleSteppedProgressBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9869DB14C20AED445C75C46794EAF10F /* Pods-MixedUILibrariesSample */ = {
+		9B7BEF22A2D2E5C2E4174836475BC47B /* AMScrollingNavbar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0B82D14C0952B749B304D5C60DC63FE /* Build configuration list for PBXNativeTarget "Pods-MixedUILibrariesSample" */;
+			buildConfigurationList = 15E22F6BCE2C9FC1198908DD7D373B8B /* Build configuration list for PBXNativeTarget "AMScrollingNavbar" */;
 			buildPhases = (
-				C3AC535C384214BDA8AE4C89CE273CA9 /* Sources */,
-				D99DC446B64B77B4B64336630C17894C /* Frameworks */,
-				102655C6093336553C25EEF0DEDE4511 /* Headers */,
+				8A3E68FC8E1A904E7A52C769E5A6035B /* Sources */,
+				7FC7DA4455DE724CEE912A07B7489AE5 /* Frameworks */,
+				A39AD5A1075C68996806AE28E03E308D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				76CE0D1B73418FA69453CF069356152A /* PBXTargetDependency */,
-				E99DE8B8AE6938BEE78BA3F908CC70EC /* PBXTargetDependency */,
-				B6D07BF2566DCC9502640BBDBAF8C757 /* PBXTargetDependency */,
-				02BA9A7CF2A46ACEA7D4971CAB42BC38 /* PBXTargetDependency */,
-				B0186542E20F5E1E2D75749BE2630BCB /* PBXTargetDependency */,
+			);
+			name = AMScrollingNavbar;
+			productName = AMScrollingNavbar;
+			productReference = 01D98B426AAE29BD6E4A1305A4DB7CEF /* AMScrollingNavbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1EBDD3BC77EFE921F5EFB115E0E3B3D /* ActiveLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C713D696F95B53915F067173A28BD91 /* Build configuration list for PBXNativeTarget "ActiveLabel" */;
+			buildPhases = (
+				2143D8F525BD90EDDD4D0868A3ADACD0 /* Sources */,
+				B3F1BED328A012B89118F91418DA6F61 /* Frameworks */,
+				43D7744EB521857928F11EE8DDC74183 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActiveLabel;
+			productName = ActiveLabel;
+			productReference = 7DD31068148523F76C8260058F2E49AB /* ActiveLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B00AD971DA62D771B680DF33E46A60F1 /* Pods-MixedUILibrariesSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ED0261702097EBDF32A9FCAC396A80 /* Build configuration list for PBXNativeTarget "Pods-MixedUILibrariesSample" */;
+			buildPhases = (
+				AB014DBE98437C775F4117B9E2C28BE8 /* Sources */,
+				41A3697D21E115AE4C80699481969383 /* Frameworks */,
+				5AACE13CAF015976B6B8D514CD5FBF29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14D7CBC5BFD284BB6639DD70B54965F4 /* PBXTargetDependency */,
+				27B5135E98371E2DE89D5E396588A0DA /* PBXTargetDependency */,
+				86666497B8AC0F684B8FB8E10C484D91 /* PBXTargetDependency */,
+				D797407FBB6C2904AD0F70E8488C7085 /* PBXTargetDependency */,
+				D628CD71D516FB1BA7DCEF51ED836EB8 /* PBXTargetDependency */,
+				08E0438974CC0A5FE1A4A71E3510A212 /* PBXTargetDependency */,
+				1FA03DB385DA03E64715EB36903077D9 /* PBXTargetDependency */,
+				2D8C99C853B668177E61D50EA638C507 /* PBXTargetDependency */,
 			);
 			name = "Pods-MixedUILibrariesSample";
 			productName = "Pods-MixedUILibrariesSample";
-			productReference = 6C208D820F78ABF2F65ACD240202A44B /* Pods_MixedUILibrariesSample.framework */;
+			productReference = EFD4DABDF184D7E6E92A5B9EF47C4FC0 /* Pods_MixedUILibrariesSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C10B669321B83C5189EB219363E8C582 /* VegaScrollFlowLayout */ = {
+		CA93AB8A17287A86D94CE6288969EA3D /* VegaScrollFlowLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACB428B09580F888018C2B760BA7EEFE /* Build configuration list for PBXNativeTarget "VegaScrollFlowLayout" */;
+			buildConfigurationList = E44A4B1A39E7B2A13DF8015A030C1E36 /* Build configuration list for PBXNativeTarget "VegaScrollFlowLayout" */;
 			buildPhases = (
-				C4D6A3C02BA545AC3A3005EDBEFC3AD0 /* Sources */,
-				E8765D061C388F4C910611D7214AE893 /* Frameworks */,
-				1E26EB2499C05726BB16FD97C70A4481 /* Headers */,
+				C39E382F2724BBB7BC96DB92378E3914 /* Sources */,
+				989ACD99D0526D0E7B459C49985DD00A /* Frameworks */,
+				99BA818CC923EDA2241ECC0170B392AE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -720,7 +916,26 @@
 			);
 			name = VegaScrollFlowLayout;
 			productName = VegaScrollFlowLayout;
-			productReference = E98AEE8B0A40AE899E67CFD757F00CC6 /* VegaScrollFlowLayout.framework */;
+			productReference = 232427D59189ADAC21292A31E871B698 /* VegaScrollFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD11672B6619C297B6AEE3DFB8213C59 /* FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D647550AC543F36CDA7093F28F22389 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */;
+			buildPhases = (
+				30237CD8FFC618019ADDBFF6AF503934 /* Sources */,
+				6384E4C1DBDFE6DB82E1EAD08B3F044A /* Frameworks */,
+				1B380E02C8EEA8102FF78E1D9AC756E8 /* Resources */,
+				25E0772F87878D34BE9C9F522910F6B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ABF2DD2892B1D79E33237954FE96C29 /* PBXTargetDependency */,
+			);
+			name = FontAwesome.swift;
+			productName = FontAwesome.swift;
+			productReference = 865A1FEFD4325D30AEA06E4D96CB71D8 /* FontAwesome_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ED279AFE7EA745A57B7B9F35AD5F2C9F /* FSPagerView */ = {
@@ -737,7 +952,7 @@
 			);
 			name = FSPagerView;
 			productName = FSPagerView;
-			productReference = 8A703ED3450FC77E8745439E146E41A5 /* FSPagerView.framework */;
+			productReference = BF47662103F00A7B39E544C10A5A5F15 /* FSPagerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -757,70 +972,117 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 29EC2C7F4D28B1BFF148C48AE9610732 /* Products */;
+			productRefGroup = FE3A366CE47DD2D23F4CA6AD328AB205 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C6B9453542F050BBBD118EA2D57B98C /* DeckTransition */,
+				A1EBDD3BC77EFE921F5EFB115E0E3B3D /* ActiveLabel */,
+				9B7BEF22A2D2E5C2E4174836475BC47B /* AMScrollingNavbar */,
+				4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */,
 				878CFD6608614D017343D238F44ED042 /* FlexibleSteppedProgressBar */,
+				CD11672B6619C297B6AEE3DFB8213C59 /* FontAwesome.swift */,
+				6991F49AED797519343B1F4591001691 /* FontAwesome.swift-FontAwesome.swift */,
 				ED279AFE7EA745A57B7B9F35AD5F2C9F /* FSPagerView */,
-				83C26A1A65032AB1408D01604F119111 /* Hero */,
-				9869DB14C20AED445C75C46794EAF10F /* Pods-MixedUILibrariesSample */,
-				C10B669321B83C5189EB219363E8C582 /* VegaScrollFlowLayout */,
+				0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */,
+				B00AD971DA62D771B680DF33E46A60F1 /* Pods-MixedUILibrariesSample */,
+				CA93AB8A17287A86D94CE6288969EA3D /* VegaScrollFlowLayout */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1B380E02C8EEA8102FF78E1D9AC756E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFA908CA9A3E9A800B618AC902F5990 /* FontAwesome.swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F276D87ECE642BAF9150EB9FD4E7269A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3079113A27F987B6889C2E9C05A10DD /* FontAwesome.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		260E20B24F5D363B22B50076BFA4CBD5 /* Sources */ = {
+		2143D8F525BD90EDDD4D0868A3ADACD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57F7AE8A5556A3D64F55C382D1DAAB0 /* Array+HeroModifier.swift in Sources */,
-				D6D047A2C02C9C8F7B6F021B524CF348 /* BasePreprocessor.swift in Sources */,
-				D885B781E26415615CD22FE922BC1EE4 /* CALayer+Hero.swift in Sources */,
-				EC8E0FBFF1C71C7DDE5D00C7F256E520 /* CAMediaTimingFunction+Hero.swift in Sources */,
-				7E504CF40EDABF5AA222A875D9BC7ACA /* CascadePreprocessor.swift in Sources */,
-				77B0A88DF25424192EB6B5BF4126595F /* CG+Hero.swift in Sources */,
-				B9F5BBA79C9EBDBA4CE8C5A880CBE225 /* ConditionalPreprocessor.swift in Sources */,
-				FABCE800A63BF5574D9A7A04E81E2F03 /* DefaultAnimationPreprocessor.swift in Sources */,
-				A99B729B07E3C22CA75E3A9D1C177E80 /* DispatchQueue+Hero.swift in Sources */,
-				49AE593D92F5CBE570CF41E38452EE5B /* Hero-dummy.m in Sources */,
-				9903452D1A2F79036069ED51C4E815B9 /* HeroAnimatorViewContext.swift in Sources */,
-				71161C45211D45B28515CB86A9E1802D /* HeroContext.swift in Sources */,
-				0A69B0DEFD6FD1733EE1947354C4405D /* HeroCoreAnimationViewContext.swift in Sources */,
-				CF845EB085D70097F1EB8773318B0CF1 /* HeroDebugPlugin.swift in Sources */,
-				E1004C8A59E38E2FEF3005D26DD274EA /* HeroDebugView.swift in Sources */,
-				9C2088FBF674C01D2BAF903FEF262A3C /* HeroDefaultAnimator.swift in Sources */,
-				3DD54CC124181B51D31CBD9B0F4168F7 /* HeroModifier+HeroStringConvertible.swift in Sources */,
-				ED1C6E8669DC14BA45A27357DF7CEF6A /* HeroModifier.swift in Sources */,
-				7E505B7D4AAC3DB7FD9939C6180BF6EC /* HeroPlugin.swift in Sources */,
-				61B74C105955C9116ABD59E2863FD8D4 /* HeroProgressRunner.swift in Sources */,
-				EF7A5C637E0EBCDE614DB920809819B2 /* HeroStringConvertible.swift in Sources */,
-				204D3520639A613718C7CDE55BF72F08 /* HeroTargetState.swift in Sources */,
-				7CED6E6CC35E080E1F94D9556FB54516 /* HeroTransition+Animate.swift in Sources */,
-				5808A296321FB1C7BFDC15FCB88630B9 /* HeroTransition+Complete.swift in Sources */,
-				352F03C98B59DB3789040D4B0D5C378A /* HeroTransition+CustomTransition.swift in Sources */,
-				C67899E2E59EB7BBD1D068A3026E9BED /* HeroTransition+Interactive.swift in Sources */,
-				AF0A61424C9BF4646490D9BD1617E643 /* HeroTransition+Start.swift in Sources */,
-				027CA471A5342D9D831895410495EE51 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
-				56983408D1FF5A0551B0F06C72C448BD /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
-				6222A7FA01B835E09AAA4FA306164B35 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
-				3AE3FF8B91E9532FF99910BF956B9EE4 /* HeroTransition.swift in Sources */,
-				C642407E48D361352456FCFEBCC8ED42 /* HeroTransitionState.swift in Sources */,
-				F2EB55C94CA30419C27C11BC2C2BD535 /* HeroTypes.swift in Sources */,
-				AA8E9CFD62CDE580E7E1EC264551F38B /* HeroViewControllerDelegate.swift in Sources */,
-				563D01EC84967B65555F62D8CBB3E345 /* HeroViewPropertyViewContext.swift in Sources */,
-				747D046BF6CCD6B22DE448A319259F4E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
-				2CF3B69D4CB67F5879FE1DB227C9AF64 /* Lexer.swift in Sources */,
-				131BD0796B5EF130D3C7224265B5E8C1 /* MatchPreprocessor.swift in Sources */,
-				88E51695CDC001BC4F639B2A593F18C7 /* Nodes.swift in Sources */,
-				A795AE72B5EE8756ABF434D88933FC9B /* Parser.swift in Sources */,
-				0A449D9876FB5AABA25A730F95AC7A4D /* Regex.swift in Sources */,
-				97E12FCF1B28A57823ADD1E597654152 /* SourcePreprocessor.swift in Sources */,
-				8BC8035B9AB727C3410327F348C925A3 /* UIKit+Hero.swift in Sources */,
-				25D582C7BC726A599A9617E36F915713 /* UIView+Hero.swift in Sources */,
-				37192B729206BAF40E1D706F618E1382 /* UIViewController+Hero.swift in Sources */,
+				76BE7E023F97AF8B54BA61C875EB0EEA /* ActiveBuilder.swift in Sources */,
+				F5C368CE11EF85B6ECFD00690BC551A4 /* ActiveLabel-dummy.m in Sources */,
+				D74CC593702969A2913A437BF310FF7F /* ActiveLabel.swift in Sources */,
+				2DC337ED8DDE504E8BE546D56D25C1B8 /* ActiveType.swift in Sources */,
+				4686DB5DBB538B91A065969C4837FC23 /* RegexParser.swift in Sources */,
+				948FCFAE602EB3894A4B29F5850022D9 /* StringTrimExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30237CD8FFC618019ADDBFF6AF503934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA158509B4673EB6F8D0D12961169AB1 /* Enum.swift in Sources */,
+				589D19F8FC8F1E9D6360D950D26A7138 /* FontAwesome.swift in Sources */,
+				FD8C615CEC6F1EBDB63BF3240583D2F3 /* FontAwesome.swift-dummy.m in Sources */,
+				5AD3E160E28F5EFC4D17A8668CA322BD /* FontAwesomeBarButtonItem.swift in Sources */,
+				C879A43B7C8CC16E986D40441C2F2878 /* FontAwesomeImageRepresentable.swift in Sources */,
+				2AE0F58A0988D92438C1448C861A154C /* FontAwesomeImageView.swift in Sources */,
+				41FAD1CDCD9272883A6CF33FE8FF44E0 /* FontAwesomeSegmentedControl.swift in Sources */,
+				CBD91B03AC387775166237F805EABC3A /* FontAwesomeStateRequirement.swift in Sources */,
+				65D01C54FCF24BF6E6FBCD49F6E7CCB1 /* FontAwesomeTabBarItem.swift in Sources */,
+				FB64A64BD408EE7BBD70A4B048315C7D /* FontAwesomeTextRepresentable.swift in Sources */,
+				522BEF444AEAA78D1747B62ED49C688E /* FontAwesomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A8AA816E108F31E7CEE1A683E42839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF6ECF23D38E7DA5B5B2B43707F2F4D /* Cosmos-dummy.m in Sources */,
+				7CC5A43D7E1372EB6292FCBC0151A36E /* CosmosAccessibility.swift in Sources */,
+				371F422D050761A63F0156F537B8902D /* CosmosDefaultSettings.swift in Sources */,
+				F66DE3EF01408C42C115587B201CB541 /* CosmosLayerHelper.swift in Sources */,
+				AA971D9492DD9B9E288045C2C0CC9A99 /* CosmosLayers.swift in Sources */,
+				0EC88D04EAE0CD3EFD3C3C89C1B9F45F /* CosmosLocalizedRating.swift in Sources */,
+				99F08F6FE2B165EEBD5E01EDDA176620 /* CosmosRating.swift in Sources */,
+				015C902B9C0E63DA0519A0D34E10F739 /* CosmosSettings.swift in Sources */,
+				25DFA72039CBA011EBA738AA73084A8E /* CosmosSize.swift in Sources */,
+				424AD9605CBDCD867083B9820784E0AC /* CosmosText.swift in Sources */,
+				4F40A9CBB316E7100828F0C6F5714946 /* CosmosTouch.swift in Sources */,
+				E2D8D1AA0D41C73C4B570DE682C05D72 /* CosmosTouchTarget.swift in Sources */,
+				45F546D14166EDEE46371951EC705C03 /* CosmosView.swift in Sources */,
+				C79D2F2FCE3EF9B31D1222E0C4A59DC5 /* RightToLeft.swift in Sources */,
+				88BA9FFC474BD7B995A0CEA06FF431F7 /* StarFillMode.swift in Sources */,
+				C95B658D689425ED9DAA95EB479B44A6 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F10C260EF59BE3C7FE5AFEC986E0DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FADB898DE00224562E48A0E24A7B701 /* ParallaxHeader-dummy.m in Sources */,
+				D17E667432A26A786DE09C0310A04041 /* ParallaxHeader.swift in Sources */,
+				677F77D6EEEA10639768AA1FB5ED7C84 /* ParallaxHeaderMode.swift in Sources */,
+				17FFFFB3DFD3D36679B897AFD3F531B1 /* UIScrollView+ParallaxHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3E68FC8E1A904E7A52C769E5A6035B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89EEB37E919F207C3F6350D0EC6A23B /* AMScrollingNavbar-dummy.m in Sources */,
+				D66952E2B42275117EFCAC8AEBCCCE39 /* ScrollingNavbar+Sizes.swift in Sources */,
+				845851E9B86F87F9183224A05BAE197C /* ScrollingNavigationController.swift in Sources */,
+				F40A2DB8664546D157EF374976225384 /* ScrollingNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,26 +1095,6 @@
 				92974A612A492CD211BC6F98BCF8A74F /* FlexibleSteppedProgressBarTextLocation.swift in Sources */,
 				9E21B6709CA859CCABB8B6BAB15FF4F8 /* FSPBPointExtension.swift in Sources */,
 				B6F97F627ED13C6632CD06960ACA5384 /* FSPBTextLayerExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94E36DBAF82E76F0B0630B7B5F3BD05D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBE09246438619B492597D31F1B36ED6 /* CGRect+Corners.swift in Sources */,
-				881AF510050E703549E43CD24E242280 /* CGRect+InitWithCorner.swift in Sources */,
-				36D208AC11591D029FDCEC0880EDB577 /* Constants.swift in Sources */,
-				848D7A256DF502BD5EE79209C61277C9 /* Corner.swift in Sources */,
-				E7A4350076F629FDF59C0C8AA3848BA5 /* CornerView.swift in Sources */,
-				C624C2987F7BF3FAEDE3F8A8A1EF29CF /* DeckDismissingAnimationController.swift in Sources */,
-				965C605C46188E17796BA2B4C3A5A7E8 /* DeckPresentationController.swift in Sources */,
-				7CDF3BB1D6EDB7F09400B550C6E57B34 /* DeckPresentingAnimationController.swift in Sources */,
-				7E66EA58CC8DDA71E934871CE01AC864 /* DeckSegue.swift in Sources */,
-				6F420113A9A1379D2AA89C0AC4871AA9 /* DeckTransition-dummy.m in Sources */,
-				83A4CA041CBCA1A7AB9BA5A7843129C0 /* DeckTransitioningDelegate.swift in Sources */,
-				78240AA847324E0FF7FC54C066A999EA /* ManualLayout.swift in Sources */,
-				5FB87368B5FB04EB64760BCA6F665426 /* RoundedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,91 +1113,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3AC535C384214BDA8AE4C89CE273CA9 /* Sources */ = {
+		AB014DBE98437C775F4117B9E2C28BE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C267D28B5B4F65BBB2C8CCB7DAB6F979 /* Pods-MixedUILibrariesSample-dummy.m in Sources */,
+				0579789C35C8EEE35142D4D57697E3CE /* Pods-MixedUILibrariesSample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4D6A3C02BA545AC3A3005EDBEFC3AD0 /* Sources */ = {
+		C39E382F2724BBB7BC96DB92378E3914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A965C4E5CB15D097267FDFFAA0DA6935 /* VegaScrollFlowLayout-dummy.m in Sources */,
-				1EADF19A71D4F62CAA6CB59E5E0533D7 /* VegaScrollFlowLayout.swift in Sources */,
+				4CC2830689D95406AC2A3AF3F47D366D /* VegaScrollFlowLayout-dummy.m in Sources */,
+				1975B6AA9B16FC0DA03173B01468ECB8 /* VegaScrollFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDD05B792A1A2DB330508032AD5AC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02BA9A7CF2A46ACEA7D4971CAB42BC38 /* PBXTargetDependency */ = {
+		08E0438974CC0A5FE1A4A71E3510A212 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Hero;
-			target = 83C26A1A65032AB1408D01604F119111 /* Hero */;
-			targetProxy = EBA68FAA46ECC4082953BE232B1006DD /* PBXContainerItemProxy */;
+			name = FontAwesome.swift;
+			target = CD11672B6619C297B6AEE3DFB8213C59 /* FontAwesome.swift */;
+			targetProxy = 0661B1C2EC6484F9963C31A52B7D35D6 /* PBXContainerItemProxy */;
 		};
-		76CE0D1B73418FA69453CF069356152A /* PBXTargetDependency */ = {
+		0ABF2DD2892B1D79E33237954FE96C29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DeckTransition;
-			target = 1C6B9453542F050BBBD118EA2D57B98C /* DeckTransition */;
-			targetProxy = 5B6C4199C2CBB46EB36A0FC99BF3D853 /* PBXContainerItemProxy */;
+			name = "FontAwesome.swift-FontAwesome.swift";
+			target = 6991F49AED797519343B1F4591001691 /* FontAwesome.swift-FontAwesome.swift */;
+			targetProxy = A1E7ADA9414728070F39599079B02152 /* PBXContainerItemProxy */;
 		};
-		B0186542E20F5E1E2D75749BE2630BCB /* PBXTargetDependency */ = {
+		14D7CBC5BFD284BB6639DD70B54965F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMScrollingNavbar;
+			target = 9B7BEF22A2D2E5C2E4174836475BC47B /* AMScrollingNavbar */;
+			targetProxy = 53756038DEBCB0D44155D5280DAD3198 /* PBXContainerItemProxy */;
+		};
+		1FA03DB385DA03E64715EB36903077D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxHeader;
+			target = 0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */;
+			targetProxy = 5B8003FC73D49E144AF7B37E2A09B975 /* PBXContainerItemProxy */;
+		};
+		27B5135E98371E2DE89D5E396588A0DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ActiveLabel;
+			target = A1EBDD3BC77EFE921F5EFB115E0E3B3D /* ActiveLabel */;
+			targetProxy = DE7AE51A28AD92D98C6A6FE11589DDE4 /* PBXContainerItemProxy */;
+		};
+		2D8C99C853B668177E61D50EA638C507 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VegaScrollFlowLayout;
-			target = C10B669321B83C5189EB219363E8C582 /* VegaScrollFlowLayout */;
-			targetProxy = FF3957C2D32AEFA2533684CC3B82CB6F /* PBXContainerItemProxy */;
+			target = CA93AB8A17287A86D94CE6288969EA3D /* VegaScrollFlowLayout */;
+			targetProxy = 1041DAE7D452C6D8CC344DAA32955614 /* PBXContainerItemProxy */;
 		};
-		B6D07BF2566DCC9502640BBDBAF8C757 /* PBXTargetDependency */ = {
+		86666497B8AC0F684B8FB8E10C484D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */;
+			targetProxy = E221DBDF4F5F79474A65AFA799CDD35A /* PBXContainerItemProxy */;
+		};
+		D628CD71D516FB1BA7DCEF51ED836EB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlexibleSteppedProgressBar;
 			target = 878CFD6608614D017343D238F44ED042 /* FlexibleSteppedProgressBar */;
-			targetProxy = 19F048E42397C3CD342E2853B54D0AEA /* PBXContainerItemProxy */;
+			targetProxy = DAE73EBCF1450EAB9E0BADF08CFFEB77 /* PBXContainerItemProxy */;
 		};
-		E99DE8B8AE6938BEE78BA3F908CC70EC /* PBXTargetDependency */ = {
+		D797407FBB6C2904AD0F70E8488C7085 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FSPagerView;
 			target = ED279AFE7EA745A57B7B9F35AD5F2C9F /* FSPagerView */;
-			targetProxy = 6544AB400C1E70D7AE2EAD694F176773 /* PBXContainerItemProxy */;
+			targetProxy = 73F8593A958147FBC41D37D7BF0BF139 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		069A615307A79B514F3656A67BD5BC64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 836543687F9DE4A1091789875EA58668 /* DeckTransition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DeckTransition/DeckTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DeckTransition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DeckTransition/DeckTransition.modulemap";
-				PRODUCT_NAME = DeckTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1011,9 +1252,9 @@
 			};
 			name = Release;
 		};
-		556032B7182B7F705E67C1F3C50F7602 /* Release */ = {
+		1CE461F9576099F50968F230A316D790 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC78A5D8BB83F7473AAF3B0E683D05E6 /* Pods-MixedUILibrariesSample.release.xcconfig */;
+			baseConfigurationReference = 0C6A8E91F10878CF5084F20FC4EA3D2B /* AMScrollingNavbar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1024,20 +1265,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MixedUILibrariesSample/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AMScrollingNavbar/AMScrollingNavbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMScrollingNavbar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MixedUILibrariesSample/Pods-MixedUILibrariesSample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MixedUILibrariesSample;
+				MODULEMAP_FILE = "Target Support Files/AMScrollingNavbar/AMScrollingNavbar.modulemap";
+				PRODUCT_NAME = AMScrollingNavbar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1045,9 +1284,87 @@
 			};
 			name = Release;
 		};
+		222A5960BDD29DEB20B10F4A8DFAF46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E81F935BC03C0C7483869ECE7C50901 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3D3F44B66A238CE49A52F23A785FABEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6826E503D0A490BCCFDFDE0CFFC14F6B /* Cosmos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4181C58E1B926984BF5B8C4567FD18EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E81F935BC03C0C7483869ECE7C50901 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		57880DF658B3DFB9264A4AED7ABB2DFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E2256EDEAF558AFA31171737CE70E7 /* FlexibleSteppedProgressBar.xcconfig */;
+			baseConfigurationReference = 80FCF28D7C1048033E12AC8C99920AD4 /* FlexibleSteppedProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1137,7 +1454,262 @@
 			};
 			name = Debug;
 		};
-		6963C76A75C3022068488C84BEF9C039 /* Debug */ = {
+		628062EA4B09258890B68C96BF5BFEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027B66ECA6B491BE8423AE5B9D49D738 /* ActiveLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActiveLabel/ActiveLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActiveLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActiveLabel/ActiveLabel.modulemap";
+				PRODUCT_NAME = ActiveLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62FE1FBEB5CF4212E6EBD091002079D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC78A5D8BB83F7473AAF3B0E683D05E6 /* Pods-MixedUILibrariesSample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MixedUILibrariesSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MixedUILibrariesSample/Pods-MixedUILibrariesSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MixedUILibrariesSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		659C49EB78C223808F096000090DE9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6826E503D0A490BCCFDFDE0CFFC14F6B /* Cosmos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72BB55F613988E5A20A90FF4CE22C99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1791ED3D41A246716AADD6005491E2 /* VegaScrollFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VegaScrollFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
+				PRODUCT_NAME = VegaScrollFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74726B09F55E41303A1B844FA76BA6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F939A0F3317400BDDAF25EF724A722 /* FSPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPagerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
+				PRODUCT_NAME = FSPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		959540DB9959412A815DEB4CAF3FF7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F939A0F3317400BDDAF25EF724A722 /* FSPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPagerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
+				PRODUCT_NAME = FSPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB61D2EEA64A8F4FA109ED2813F94704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1791ED3D41A246716AADD6005491E2 /* VegaScrollFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VegaScrollFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
+				PRODUCT_NAME = VegaScrollFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C26A976707FC84210812E972F96ACA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027B66ECA6B491BE8423AE5B9D49D738 /* ActiveLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActiveLabel/ActiveLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActiveLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActiveLabel/ActiveLabel.modulemap";
+				PRODUCT_NAME = ActiveLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C64FA018F1FF4E110A11D1D6D0888E5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A62E191AECFF38738ED7B2158BE7A9C9 /* Pods-MixedUILibrariesSample.debug.xcconfig */;
 			buildSettings = {
@@ -1171,9 +1743,9 @@
 			};
 			name = Debug;
 		};
-		74726B09F55E41303A1B844FA76BA6B3 /* Debug */ = {
+		C878AFEBE8CA2C11DDE0267B28947A9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32E88826605F1381FF1EC0B2CE3B90EA /* FSPagerView.xcconfig */;
+			baseConfigurationReference = 0C6A8E91F10878CF5084F20FC4EA3D2B /* AMScrollingNavbar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1184,13 +1756,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSPagerView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AMScrollingNavbar/AMScrollingNavbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMScrollingNavbar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
-				PRODUCT_NAME = FSPagerView;
+				MODULEMAP_FILE = "Target Support Files/AMScrollingNavbar/AMScrollingNavbar.modulemap";
+				PRODUCT_NAME = AMScrollingNavbar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1202,9 +1774,9 @@
 			};
 			name = Debug;
 		};
-		8C7DBBE02DCDBBC4FA8941119B2371CE /* Debug */ = {
+		D6EE27F3DEF0DCD54A3411368103C46F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C214C0617DFE8818F33E95F3E113E426 /* Hero.xcconfig */;
+			baseConfigurationReference = 3E81F935BC03C0C7483869ECE7C50901 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1215,75 +1787,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
-				PRODUCT_NAME = Hero;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		93AC2C40F83CEC7CC537A950F48F6E63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C2679A80C5293E417CB24F82DF18C36 /* VegaScrollFlowLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VegaScrollFlowLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
-				PRODUCT_NAME = VegaScrollFlowLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9554195249A5B554D21B46B85AB187A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C2679A80C5293E417CB24F82DF18C36 /* VegaScrollFlowLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VegaScrollFlowLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
-				PRODUCT_NAME = VegaScrollFlowLayout;
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_NAME = FontAwesome_swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1296,9 +1806,9 @@
 			};
 			name = Release;
 		};
-		959540DB9959412A815DEB4CAF3FF7F4 /* Release */ = {
+		DE471EA696D4FC8681E6C75CB1AE87E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32E88826605F1381FF1EC0B2CE3B90EA /* FSPagerView.xcconfig */;
+			baseConfigurationReference = C157724C539E507007FE2734FE3050ED /* ParallaxHeader.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1309,45 +1819,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSPagerView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
-				PRODUCT_NAME = FSPagerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9AB4AA343C503848EFEC519B6B1E99DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 836543687F9DE4A1091789875EA58668 /* DeckTransition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DeckTransition/DeckTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DeckTransition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DeckTransition/DeckTransition.modulemap";
-				PRODUCT_NAME = DeckTransition;
+				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
+				PRODUCT_NAME = ParallaxHeader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1358,42 +1836,10 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		AAA7B40D1CFCAD02D2C29943BB0B2C0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C214C0617DFE8818F33E95F3E113E426 /* Hero.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
-				PRODUCT_NAME = Hero;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		EE17DF7CA50C3454F250E9DB0525050F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E2256EDEAF558AFA31171737CE70E7 /* FlexibleSteppedProgressBar.xcconfig */;
+			baseConfigurationReference = 80FCF28D7C1048033E12AC8C99920AD4 /* FlexibleSteppedProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1422,14 +1868,98 @@
 			};
 			name = Debug;
 		};
+		FBCC634A59133013FEAFE0B999972D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C157724C539E507007FE2734FE3050ED /* ParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
+				PRODUCT_NAME = ParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEE81985885E3F6B115EFBC0EB182EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E81F935BC03C0C7483869ECE7C50901 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		15E22F6BCE2C9FC1198908DD7D373B8B /* Build configuration list for PBXNativeTarget "AMScrollingNavbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C878AFEBE8CA2C11DDE0267B28947A9C /* Debug */,
+				1CE461F9576099F50968F230A316D790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
 				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3595877C8D4131A0FCEF793FFA5F800C /* Build configuration list for PBXNativeTarget "ParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE471EA696D4FC8681E6C75CB1AE87E5 /* Debug */,
+				FBCC634A59133013FEAFE0B999972D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CA41A3E689F135BAEECE91B63D9EA0 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3F44B66A238CE49A52F23A785FABEA /* Debug */,
+				659C49EB78C223808F096000090DE9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45ED0261702097EBDF32A9FCAC396A80 /* Build configuration list for PBXNativeTarget "Pods-MixedUILibrariesSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64FA018F1FF4E110A11D1D6D0888E5E /* Debug */,
+				62FE1FBEB5CF4212E6EBD091002079D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1443,29 +1973,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A08B0DE972D9D1786334E52667434BF7 /* Build configuration list for PBXNativeTarget "Hero" */ = {
+		7C713D696F95B53915F067173A28BD91 /* Build configuration list for PBXNativeTarget "ActiveLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C7DBBE02DCDBBC4FA8941119B2371CE /* Debug */,
-				AAA7B40D1CFCAD02D2C29943BB0B2C0A /* Release */,
+				C26A976707FC84210812E972F96ACA3B /* Debug */,
+				628062EA4B09258890B68C96BF5BFEE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACB428B09580F888018C2B760BA7EEFE /* Build configuration list for PBXNativeTarget "VegaScrollFlowLayout" */ = {
+		8D647550AC543F36CDA7093F28F22389 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93AC2C40F83CEC7CC537A950F48F6E63 /* Debug */,
-				9554195249A5B554D21B46B85AB187A0 /* Release */,
+				4181C58E1B926984BF5B8C4567FD18EE /* Debug */,
+				D6EE27F3DEF0DCD54A3411368103C46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE1217ED7FD19ECE7080AF036A8D5F25 /* Build configuration list for PBXNativeTarget "DeckTransition" */ = {
+		A91ACF4D4E342DEB04B7C57FA8EA6CC1 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AB4AA343C503848EFEC519B6B1E99DD /* Debug */,
-				069A615307A79B514F3656A67BD5BC64 /* Release */,
+				222A5960BDD29DEB20B10F4A8DFAF46E /* Debug */,
+				FEE81985885E3F6B115EFBC0EB182EA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1479,11 +2009,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0B82D14C0952B749B304D5C60DC63FE /* Build configuration list for PBXNativeTarget "Pods-MixedUILibrariesSample" */ = {
+		E44A4B1A39E7B2A13DF8015A030C1E36 /* Build configuration list for PBXNativeTarget "VegaScrollFlowLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6963C76A75C3022068488C84BEF9C039 /* Debug */,
-				556032B7182B7F705E67C1F3C50F7602 /* Release */,
+				AB61D2EEA64A8F4FA109ED2813F94704 /* Debug */,
+				72BB55F613988E5A20A90FF4CE22C99F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

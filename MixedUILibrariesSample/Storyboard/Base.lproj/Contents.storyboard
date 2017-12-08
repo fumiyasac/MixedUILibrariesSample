@@ -53,16 +53,17 @@
                     <navigationItem key="navigationItem" id="sWa-Vs-Mru"/>
                     <connections>
                         <outlet property="listCollectionView" destination="kJR-Ey-wjK" id="Jm6-vg-vnW"/>
+                        <segue destination="6jd-V4-XrC" kind="show" identifier="ToArticleViewController" id="jSH-DT-RTv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dCq-F2-sqK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="468" y="-119.1904047976012"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Scrolling Navigation Controller-->
         <scene sceneID="ATT-Ro-1GC">
             <objects>
-                <navigationController id="O2m-zU-TJC" sceneMemberID="viewController">
+                <navigationController id="O2m-zU-TJC" customClass="ScrollingNavigationController" customModule="AMScrollingNavbar" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8XA-dx-jNf">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -95,6 +96,7 @@
                             <constraint firstAttribute="bottom" secondItem="aSW-VC-Fhg" secondAttribute="bottom" id="jMo-MC-mQL"/>
                             <constraint firstItem="aSW-VC-Fhg" firstAttribute="leading" secondItem="Ruz-gU-yRq" secondAttribute="leading" id="ldZ-gK-SzL"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="shQ-6K-qZW"/>
                     </view>
                     <connections>
                         <outlet property="coverFlowSliderView" destination="aSW-VC-Fhg" id="ikl-nZ-uzn"/>
@@ -103,6 +105,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kkq-Bq-GXR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1229.5999999999999" y="-338.23088455772114"/>
+        </scene>
+        <!--Article View Controller-->
+        <scene sceneID="Ozt-dY-qEq">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cgl-IU-XC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="6jd-V4-XrC" customClass="ArticleViewController" customModule="MixedUILibrariesSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="edS-Dv-Qy2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tip-tN-KK9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tip-tN-KK9" firstAttribute="bottom" secondItem="f67-4j-ARR" secondAttribute="bottom" id="2Rc-Hf-J8w"/>
+                            <constraint firstItem="tip-tN-KK9" firstAttribute="leading" secondItem="f67-4j-ARR" secondAttribute="leading" id="UCA-XZ-zD2"/>
+                            <constraint firstItem="tip-tN-KK9" firstAttribute="top" secondItem="edS-Dv-Qy2" secondAttribute="top" id="iHR-ZX-91B"/>
+                            <constraint firstItem="tip-tN-KK9" firstAttribute="trailing" secondItem="f67-4j-ARR" secondAttribute="trailing" id="nDW-xS-gUV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="f67-4j-ARR"/>
+                    </view>
+                    <connections>
+                        <outlet property="articleTableView" destination="tip-tN-KK9" id="7lg-Vm-ucJ"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1949.5999999999999" y="-119.1904047976012"/>
         </scene>
     </scenes>
 </document>
