@@ -25,19 +25,17 @@ class MainViewController: UIViewController {
     //ページングして表示させるViewControllerを保持する配列
     fileprivate var tutorialControllerLists = [TutorialBaseViewController]()
 
-    //チュートリアル画面に表示するもの
-    private let tutorialContents: [String] = [
-        "タイトル1",
-        "タイトル2",
-        "タイトル3",
-    ]
+    //チュートリアル画面に表示する要素
+    private let tutorialContents: [Tutorial] = Tutorial.getSampleData()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setupPageViewControllerTitle()
         setupStepIndicator()
         setupTutorialControllerLists()
         setupPageViewController()
+        setupCompleteTutorialButton()
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,6 +43,18 @@ class MainViewController: UIViewController {
     }
 
     //MARK: - Private Functions
+
+    private func setupPageViewControllerTitle() {
+        tutorialTitleLabel.text = "クリスマスのディナー表示サンプル"
+    }
+
+    private func setupCompleteTutorialButton() {
+        completeTutorialButton.layer.cornerRadius = 5.0
+        completeTutorialButton.layer.borderWidth = 0.75
+        completeTutorialButton.layer.borderColor = UIColor.orange.cgColor
+        completeTutorialButton.backgroundColor = UIColor.white
+        completeTutorialButton.setTitleColor(UIColor.orange, for: .normal)
+    }
 
     //ステップインジケータ表示の初期表示に関するセッティングをするメソッド
     private func setupStepIndicator() {
@@ -56,7 +66,7 @@ class MainViewController: UIViewController {
         
         //選択時の外枠を設定する
         stepIndicator.selectedOuterCircleLineWidth = 4.0
-        stepIndicator.selectedOuterCircleStrokeColor = UIColor.red
+        stepIndicator.selectedOuterCircleStrokeColor = UIColor.orange
         stepIndicator.currentSelectedCenterColor = UIColor.white
 
         stepIndicator.stepAnimationDuration = 0.26
@@ -85,9 +95,10 @@ class MainViewController: UIViewController {
             let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
             let tutorialBaseViewController = storyboard.instantiateViewController(withIdentifier: "TutorialBaseViewController") as! TutorialBaseViewController
             
-            //「タグ番号 = インデックスの値」でスワイプ完了時にどのViewControllerかを判別できるようにする ＆ ストーリーデータをセットする
+            //「タグ番号 = インデックスの値」でスワイプ完了時にどのViewControllerかを判別できるようにする ＆ チュートリアルデータをセットする
             tutorialBaseViewController.view.tag = index
-            
+            tutorialBaseViewController.setTutorialView(tutorialContents[index])
+
             //tutorialControllerListsに追加する
             tutorialControllerLists.append(tutorialBaseViewController)
         }
@@ -112,6 +123,9 @@ extension MainViewController: UIPageViewControllerDelegate, UIPageViewController
                 let currentCount = targetViewController.view.tag + 1
                 tutorialCounterLabel.text = "\(currentCount) of \(tutorialContents.count)"
                 stepIndicator.currentIndex = targetViewController.view.tag
+
+                //一番最後のページのみボタン押下を可能にする
+                completeTutorialButton.isEnabled = (currentCount == tutorialContents.count)
             }
         }
     }

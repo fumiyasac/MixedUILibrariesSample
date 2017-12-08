@@ -37,7 +37,7 @@
                                                 <color key="value" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="selectedBackgoundColor">
-                                                <color key="value" red="0.45098039220000002" green="0.76470588240000004" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="value" red="0.99344800420000001" green="0.66666666669999997" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
@@ -82,7 +82,11 @@
                                     <constraint firstAttribute="width" constant="300" id="Ai7-CX-Fm4"/>
                                     <constraint firstAttribute="height" constant="40" id="qqi-Wa-bfS"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                <state key="normal" title="次のページへ進む"/>
+                                <connections>
+                                    <segue destination="bOH-jG-tzG" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="xlc-Wg-JxG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -136,7 +140,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.45098039220000002" green="0.76470588240000004" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="UDf-fu-EFa" firstAttribute="top" secondItem="D4S-rV-bqV" secondAttribute="bottom" constant="20" id="BOq-eE-8ga"/>
                             <constraint firstItem="UDf-fu-EFa" firstAttribute="centerX" secondItem="Odd-Mw-PMW" secondAttribute="centerX" id="GBA-rU-drU"/>
@@ -145,6 +148,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i1z-0D-MFC"/>
                     </view>
+                    <connections>
+                        <outlet property="tutorialBaseImageView" destination="UDf-fu-EFa" id="aqb-eg-axh"/>
+                        <outlet property="tutorialBaseTitleLabel" destination="D4S-rV-bqV" id="z34-6P-0kk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I98-wW-Uyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -157,6 +164,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wCw-qX-HsX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="870" y="83"/>
+        </scene>
+        <!--Contents-->
+        <scene sceneID="EyE-vi-W8v">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Contents" id="bOH-jG-tzG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3hQ-7x-YTP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="370" y="484"/>
         </scene>
     </scenes>
 </document>
