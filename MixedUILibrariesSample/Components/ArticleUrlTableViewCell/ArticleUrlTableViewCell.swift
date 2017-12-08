@@ -20,15 +20,21 @@ class ArticleUrlTableViewCell: UITableViewCell {
     }
 
     //MARK: - Function
-    /*
+
     func setCell(_ article: Article) {
-     
+        articleUrlLabel.text = article.linkUrl
+        articleUrlLabel.handleURLTap( { url in
+            print("押されたURL：\(url)")
+        })
     }
-    */
 
     //MARK: - Private Function
     
     private func setupArticleUrlTableViewCell() {
+        self.accessoryType  = .none
+        self.selectionStyle = .none
+
         articleUrlLabel.enabledTypes = [.url]
+        articleUrlLabel.urlMaximumLength = 48
     }
 }

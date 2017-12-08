@@ -20,15 +20,27 @@ class ArticleHashtagTableViewCell: UITableViewCell {
     }
 
     //MARK: - Function
-    /*
+
     func setCell(_ article: Article) {
-     
+        let hashtagString = article.hashTags.joined(separator: " ")
+
+        //ハッシュタグの行の高さを調節する
+        let hashtagParagraphStyle = NSMutableParagraphStyle.init()
+        hashtagParagraphStyle.minimumLineHeight = 20
+        let hashtagAttributedText = NSMutableAttributedString.init(string: hashtagString)
+        hashtagAttributedText.addAttribute(NSAttributedStringKey.paragraphStyle, value: hashtagParagraphStyle, range: NSMakeRange(0, hashtagAttributedText.length))
+        articleHashtagLabel.attributedText = hashtagAttributedText
+        articleHashtagLabel.handleHashtagTap { hashtag in
+            print("押されたハッシュタグ：\(hashtag)")
+        }
     }
-    */
 
     //MARK: - Private Function
 
     private func setupArticleHashtagTableViewCell() {
+        self.accessoryType  = .none
+        self.selectionStyle = .none
+
         articleHashtagLabel.enabledTypes = [.hashtag]
     }
 }

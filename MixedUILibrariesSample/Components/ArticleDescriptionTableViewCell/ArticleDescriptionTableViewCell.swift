@@ -28,19 +28,35 @@ class ArticleDescriptionTableViewCell: UITableViewCell {
         setupArticleDescriptionTableViewCell()
     }
 
+    //MARK: - Function
+    
+    func setCell(_ article: Article) {
+
+        //タイトルの行の高さを調節する
+        let titleParagraphStyle = NSMutableParagraphStyle.init()
+        titleParagraphStyle.minimumLineHeight = 24
+        let titleAttributedText = NSMutableAttributedString.init(string: article.title)
+        titleAttributedText.addAttribute(NSAttributedStringKey.paragraphStyle, value: titleParagraphStyle, range: NSMakeRange(0, titleAttributedText.length))
+        articleTitleLabel.attributedText = titleAttributedText
+
+        articleCatchCopyLabel.text = article.catchCopy
+        articlePublishedDateLabel.text = article.publishedDate
+        articleCategoryLabel.text = article.category
+    }
+
     //MARK: - Private Function
 
     private func setupArticleDescriptionTableViewCell() {
-        
+
         //セルの装飾設定をする
         self.accessoryType  = .none
         self.selectionStyle = .none
-        
+
         //日時のアイコン設定
         let clockFontImage = UIImage.fontAwesomeIcon(name: .clockO, textColor: UIColor.gray, size: iconImageViewSize)
         articlePublishedDateImageView.backgroundColor = UIColor.clear
         articlePublishedDateImageView.image = clockFontImage
-        
+
         //カテゴリーのアイコン設定
         let tagFontImage = UIImage.fontAwesomeIcon(name: .tag, textColor: UIColor.gray, size: iconImageViewSize)
         articleCategoryImageView.backgroundColor  = UIColor.clear

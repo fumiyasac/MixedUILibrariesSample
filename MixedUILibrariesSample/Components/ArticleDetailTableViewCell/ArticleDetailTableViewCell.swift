@@ -14,12 +14,26 @@ class ArticleDetailTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+
+        setupArticleDetailTableViewCell()
     }
 
     //MARK: - Function
-    /*
+
     func setCell(_ article: Article) {
-     
+
+        //本文詳細の行の高さを調節する
+        let detailTextParagraphStyle = NSMutableParagraphStyle.init()
+        detailTextParagraphStyle.minimumLineHeight = 20
+        let detailTextAttributedText = NSMutableAttributedString.init(string: article.detailText)
+        detailTextAttributedText.addAttribute(NSAttributedStringKey.paragraphStyle, value: detailTextParagraphStyle, range: NSMakeRange(0, detailTextAttributedText.length))
+        articleDetailLabel.attributedText = detailTextAttributedText
     }
-    */
+
+    //MARK: - Private Function
+    
+    private func setupArticleDetailTableViewCell() {
+        self.accessoryType  = .none
+        self.selectionStyle = .none
+    }
 }

@@ -36,7 +36,8 @@ class ListViewController: UIViewController {
 
     private func setupNavigationBar() {
         removeBackButtonText()
-        navigationController?.view.backgroundColor = UIColor.black
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationItem.title = "クリスマスに食べたいディナー"
     }
 
     private func setupListCollectionViewCell() {
