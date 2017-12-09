@@ -44,7 +44,6 @@ class ListCollectionViewCell: UICollectionViewCell {
         publishedDateLabel.text = list.publishedDate
 
         //星の値をCosmosViewクラスのインスタンスに入れる
-        ratingStarView.settings.fillMode = .precise
         ratingStarView.rating = list.star
     }
 
@@ -61,5 +60,6 @@ class ListCollectionViewCell: UICollectionViewCell {
         ratingStarView.settings.updateOnTouch = false
         ratingStarView.settings.starSize = 20
         ratingStarView.settings.starMargin = 5
+        ratingStarView.settings.fillMode = .precise
     }
 }
