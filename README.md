@@ -37,5 +37,5 @@
 
 このサンプル全体の詳細解説とポイントをまとめたものは下記に掲載しております。
 
-+ (Qiita) https://github.com/fumiyasac/MixedUILibrariesSample 
++ (Qiita) https://qiita.com/fumiyasac@github/items/48617348ef7f18494d38
 
