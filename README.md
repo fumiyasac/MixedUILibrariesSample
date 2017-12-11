@@ -24,16 +24,16 @@
 
 ### 使用ライブラリ
 
-| ライブラリ名 | ライブラリの機能概要 |
-|:-----------|:------------|:------------|
-|[FlexibleSteppedProgressBar](https://github.com/amratab/FlexibleSteppedProgressBar) |チュートリアルでよくあるステップインジケーターを表示するライブラリ |
-|[VegaScrollFlowLayout](https://github.com/AppliKeySolutions/VegaScroll) |奥行きのあるようなスクロールをするUICollectionViewのFlowLayoutをカスタマイズしたライブラリ |
-|[FSPagerView](https://github.com/WenchaoD/FSPagerView) |様々なスクロール表現をするライブラリ |
-|[ParallaxHeader](https://github.com/romansorochak/ParallaxHeader) |UITableViewのヘッダー部分をスクロール量に応じてパララックス表示をするライブラリ |
-|[AMScrollingNavbar](https://github.com/andreamazz/AMScrollingNavbar) |スクロールの変化量に合わせてNavigationBarを折りたたむ表現をするライブラリ |
-|[Cosmos](https://github.com/evgenyneu/Cosmos) |評価のレーティング表示を扱いやすくするライブラリ |
-|[ActiveLabel](https://github.com/optonaut/ActiveLabel.swift) |URLやハッシュタグのリンク表示を扱いやすくするライブラリ |
-|[FontAwesome.swift](https://github.com/thii/FontAwesome.swift) |「Font Awesome」アイコンの利用 |
+このリポジトリのサンプルで使用したライブラリ一覧は下記になります。
+
++ [FlexibleSteppedProgressBar](https://github.com/amratab/FlexibleSteppedProgressBar)  → チュートリアルでよくあるステップインジケーターを表示するライブラリ
++ [VegaScrollFlowLayout](https://github.com/AppliKeySolutions/VegaScroll)  → 奥行きのあるようなスクロールをするUICollectionViewのFlowLayoutをカスタマイズしたライブラリ
++ [FSPagerView](https://github.com/WenchaoD/FSPagerView)  → 様々なスクロール表現をするライブラリ
++ [ParallaxHeader](https://github.com/romansorochak/ParallaxHeader)  → UITableViewのヘッダー部分をスクロール量に応じてパララックス表示をするライブラリ
++ [AMScrollingNavbar](https://github.com/andreamazz/AMScrollingNavbar)  → スクロールの変化量に合わせてNavigationBarを折りたたむ表現をするライブラリ
++ [Cosmos](https://github.com/evgenyneu/Cosmos)  → 評価のレーティング表示を扱いやすくするライブラリ
++ [ActiveLabel](https://github.com/optonaut/ActiveLabel.swift)  → URLやハッシュタグのリンク表示を扱いやすくするライブラリ
++ [FontAwesome.swift](https://github.com/thii/FontAwesome.swift)  → 「Font Awesome」アイコンの利用
 
 このサンプル全体の詳細解説とポイントをまとめたものは下記に掲載しております。
 
